@@ -112,6 +112,11 @@
     setTouchLayout(toggle.checked);
     window.EJS_defaultOptions["virtual-gamepad"] = toggle.checked ? "enabled" : "disabled";
     syncTouchControls();
+    // The canvas container changes size without the browser window changing.
+    // Let the emulator recalculate its viewport, then restore control visibility
+    // after its brief resize animation.
+    window.dispatchEvent(new Event("resize"));
+    setTimeout(syncTouchControls, 300);
   });
   window.addEventListener("resize", syncTouchControls);
 

@@ -64,11 +64,12 @@ dialog p { font-size: 13px; line-height: 1.8; color: var(--muted); }dialog stron
   footer { font-size: 8px; }
 }
 @media (orientation: portrait) {
+  .arena { height: calc((100vw - 30px) * .75); min-height: 0; max-height: 740px; }
   .touch-layout .arena { height: calc((100vw - 30px) * .75 + 210px); min-height: 0; max-height: 740px; }
   .touch-layout #game .ejs_canvas_parent { top: 0; left: 0; width: 100%; height: calc(100% - 210px); }
   .touch-layout #game .ejs_virtualGamepad_left, .touch-layout #game .ejs_virtualGamepad_right { bottom: 60px; transform: none; }
   .touch-layout #game .ejs_virtualGamepad_bottom { bottom: 20px; }
-  .playing.touch-layout .intro { display: none; }
+  .playing .intro { display: none; }
 }
 @media (orientation: landscape) and (max-height: 600px) {
   .shell { max-width: none; padding: env(safe-area-inset-top) max(8px, env(safe-area-inset-right)) env(safe-area-inset-bottom) max(8px, env(safe-area-inset-left)); }

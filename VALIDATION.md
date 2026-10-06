@@ -11,6 +11,7 @@
 - At 844 x 390, the landscape D-pad and A/B/C occupy the side margins; START remains reachable below the game.
 - At 667 x 375, the landscape screen and controls fit within the viewport.
 - At 393 x 852, the portrait screen and controls fit without horizontal scrolling.
+- Touch controls can be switched off and back on at 393 x 852 without distorting the game; disabling them removes the lower control area. At 1280 x 800, disabling them also recalculates the viewport correctly.
 - GitHub Actions deployment completed successfully: https://github.com/fenderf4i/shoresy-browser/actions/runs/37455835374
 - Every published runtime asset matches its local SHA-256 over HTTPS, including the unchanged ROM.
 - The public GitHub Pages site boots to the custom Shoresy title in browser testing.
