@@ -35,3 +35,9 @@
 - Physical iPhone Safari and Android Chrome: multitouch while skating, audio after Play, rotation/browser chrome, download/import via Files, controller pairing, and interruption/reopening.
 
 This record distinguishes browser execution from physical-device verification. No physical phone testing has been claimed.
+
+## Standard Release1.0 -2026-10-06
+
+- Exact standard Release1.0 ROM: 3,145,728 bytes; SHA256 `14c0990fbe2afdf121a30e9198f7b8c9cf0b05eca3f6f562f642fc8e50514290`.
+- New release labels, ROM URL, script version and game ID; prior Beta19 remains recoverable at commit `169d51daee15f0e312874aeb7d579c122bcce1e7`.
+- Source-build Genesis Plus GX checks pass in both versions: Home/Away/mirror/NHL-only preview mappings across26 shared slots, Brett last in the14-player menu mapping, all14 actual player-card portraits pixel-identical, original card order/wrap,15 simulated seconds of default-team gameplay and responsive pause. These are source-build emulator tests, separate from web browser/hardware testing.

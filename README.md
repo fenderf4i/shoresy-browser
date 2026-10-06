@@ -1,6 +1,6 @@
 # NHL26 Shoresy Browser Player
 
-An automatic-loading browser player for **NHL26 Shoresy Edition — Standard Beta19** Genesis ROM. Designed for portrait play in iPhone Safari and Android Chrome, with landscape support, a home-screen manifest, touch D-pad / A / B / C / START, keyboard and controller mapping, pause/restart, and save-state download/import.
+An automatic-loading browser player for **NHL26 Shoresy Edition — Standard Release 1.0** Genesis ROM. Designed for portrait play in iPhone Safari and Android Chrome, with landscape support, a home-screen manifest, touch D-pad / A / B / C / START, keyboard and controller mapping, pause/restart, and save-state download/import.
 
 ## Play
 
@@ -17,8 +17,8 @@ Keyboard: arrow keys, A/S/D for Genesis A/B/C, Enter for START. Hardware control
 The attached `.md` is a Mega Drive binary, not a Markdown document. It is published as `.bin` with **no byte changes**.
 
 - Size: 3,145,728 bytes
-- SHA-256: `20c98d314a4655d72067cd09ac3cac13f9d28b1d3f4dc132cc26989745b05da0`
-- Version: Standard Beta19 (33 teams; Sudbury defaults to Home, Winnipeg to Away)
+- SHA-256: `14c0990fbe2afdf121a30e9198f7b8c9cf0b05eca3f6f562f642fc8e50514290`
+- Version: Standard Release 1.0 (33 teams; Sudbury defaults to Home, Winnipeg to Away)
 - Header base-game credit: JKline3 & von Ozbourne
 
 The original build is never edited. See `site/roms/provenance.json`. The previous Standard 1.10 website is preserved in Git at commit `c533e374d5c04ca9352a3cb248e00241729b4b26`. Each build uses a distinct ROM URL and game ID so it loads fresh instead of reusing the previous game's cache.

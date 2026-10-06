@@ -1,12 +1,13 @@
 {
-  "version": "NHL26 Shoresy Edition - Standard Beta19",
-  "suppliedFilename": "NHL26_Bulldogs_33_Teams_Standard_Beta_19.md",
-  "publishedFilename": "nhl26-shoresy-standard-beta19.bin",
+  "version": "NHL26 Shoresy Edition - Standard Release 1.0",
+  "suppliedFilename": "NHL26_Bulldogs_33_Teams_Standard_Release_1_0.md",
+  "publishedFilename": "nhl26-shoresy-standard-release-1.0.bin",
   "bytes": 3145728,
-  "sha256": "20c98d314a4655d72067cd09ac3cac13f9d28b1d3f4dc132cc26989745b05da0",
+  "sha256": "14c0990fbe2afdf121a30e9198f7b8c9cf0b05eca3f6f562f642fc8e50514290",
   "defaultHomeTeam": "Sudbury",
   "defaultAwayTeam": "Winnipeg",
   "modifications": "None. Extension changed from .md (Mega Drive) to .bin; binary contents are identical.",
   "headerDomesticTitle": "NHL Hockey '26 -'94 Edition",
-  "headerOverseasTitle": "NHL 2026 - 94 Edition by JKline3 & von Ozbourne"
+  "headerOverseasTitle": "NHL 2026 - 94 Edition by JKline3 & von Ozbourne",
+  "menuPortraitOrder": "Michaels, Goody, Fish, Sommerfeld, JJ Frankie JJ, Delaney, Jim 2, Jim 1, Shoresy, Dolo, Schmidt, Hitch, Jim 3, Brett Skrupski"
 }

@@ -23,9 +23,9 @@
   window.EJS_player = "#game";
   window.EJS_core = "genesis_plus_gx";
   window.EJS_controlScheme = "segaMD";
-  window.EJS_gameUrl = "roms/nhl26-shoresy-standard-beta19.bin";
-  window.EJS_gameName = "NHL26 Shoresy Standard Beta19";
-  window.EJS_gameID = 26119;
+  window.EJS_gameUrl = "roms/nhl26-shoresy-standard-release-1.0.bin";
+  window.EJS_gameName = "NHL26 Shoresy Standard Release 1.0";
+  window.EJS_gameID = 26100;
   window.EJS_pathtodata = "emulator/";
   window.EJS_threads = false;
   window.EJS_DEBUG_XX = new URLSearchParams(location.search).has("debug");
