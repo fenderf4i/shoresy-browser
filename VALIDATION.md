@@ -11,11 +11,13 @@
 - At 844 x 390, the landscape D-pad and A/B/C occupy the side margins; START remains reachable below the game.
 - At 667 x 375, the landscape screen and controls fit within the viewport.
 - At 393 x 852, the portrait screen and controls fit without horizontal scrolling.
+- GitHub Actions deployment completed successfully: https://github.com/fenderf4i/shoresy-browser/actions/runs/37455835374
+- Every published runtime asset matches its local SHA-256 over HTTPS, including the unchanged ROM.
+- The public GitHub Pages site boots to the custom Shoresy title in browser testing.
 
 ## Remaining checks
 
 - Restart and save-state export/import. Automated download observation timed out in the local browser sessions; save restoration is not verified.
-- Published HTTPS asset hashes and game boot.
 - Physical iPhone Safari and Android Chrome: multitouch while skating, audio after Play, rotation/browser chrome, download/import via Files, controller pairing, and interruption/reopening.
 
 This record distinguishes browser execution from physical-device verification. No physical phone testing has been claimed.
