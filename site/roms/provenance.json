@@ -1,9 +1,11 @@
 {
-  "version": "NHL26 Shoresy Edition - Standard 1.10",
-  "suppliedFilename": "NHL26-Shoresy Edition-Standard-1.10.md",
-  "publishedFilename": "nhl26-shoresy-standard-1.10.bin",
+  "version": "NHL26 Shoresy Edition - Standard Beta19",
+  "suppliedFilename": "NHL26_Bulldogs_33_Teams_Standard_Beta_19.md",
+  "publishedFilename": "nhl26-shoresy-standard-beta19.bin",
   "bytes": 3145728,
-  "sha256": "b6737382c9c28800066403fd85b4a030b378f2aba3f692dd2c028dc17b365f50",
+  "sha256": "20c98d314a4655d72067cd09ac3cac13f9d28b1d3f4dc132cc26989745b05da0",
+  "defaultHomeTeam": "Sudbury",
+  "defaultAwayTeam": "Winnipeg",
   "modifications": "None. Extension changed from .md (Mega Drive) to .bin; binary contents are identical.",
   "headerDomesticTitle": "NHL Hockey '26 -'94 Edition",
   "headerOverseasTitle": "NHL 2026 - 94 Edition by JKline3 & von Ozbourne"

@@ -1,5 +1,15 @@
 # Verification record
 
+## Standard Beta19 update - 2026-10-06
+
+- Replaced the previous Standard 1.10 ROM with the exact standard Beta19 build, without modifying its binary contents.
+- SHA-256: `20c98d314a4655d72067cd09ac3cac13f9d28b1d3f4dc132cc26989745b05da0`; size: 3,145,728 bytes.
+- Local verification and HTTP verification passed for all 33 assets. JavaScript syntax and Git whitespace checks passed.
+- A fresh Edge browser session rendered the Bulldogs/NOSHO startup artwork.
+- The source Beta19 build's separate Genesis Plus GX regression evidence confirms Sudbury as the default Home team and Winnipeg as Away, all 33 team selections, and responsive gameplay. This is source-build evidence, separate from the website checks.
+- The previous website build remains recoverable at Git commit `c533e374d5c04ca9352a3cb248e00241729b4b26`.
+- New ROM URL, game ID, and script version prevent reuse of the previous ROM cache. Existing save states are not migrated or verified against Beta19.
+
 ## Confirmed before publication
 
 - The attachment is a 3 MiB binary with a SEGA GENESIS header.

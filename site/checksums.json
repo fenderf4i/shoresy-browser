@@ -1,6 +1,6 @@
 {
   ".nojekyll": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-  "app.js": "92611ce32b0eecaac13b1780df825a87c86fc1945ef0b14e46985efb9e5a455a",
+  "app.js": "00d2dbbb4525d4497dc15c6e9d6c574d775056ee0f2ffb2ba69635049a67efc0",
   "assets/icon-180.png": "7cd4e82139c7947ff07200f5b9ed0863e800f2eacc37ddf237c1d3c84cab61ca",
   "assets/icon-192.png": "95c330507dfd9dbebdf2dde56e0c2b4216cb207a21e49e304b2760d6a816d902",
   "assets/icon-512.png": "b95cc69766415198c74dd5131fcf6f0e355d499e5ec5087c615fcd02af17a37b",
@@ -27,9 +27,9 @@
   "emulator/src/socket.io.min.js": "b0e735814f8dcfecd6cdb8a7ce95a297a7e1e5f2727a29e6f5901801d52fa0c5",
   "emulator/src/storage.js": "06759f310bb2d782d2728e1d3417a0d8f613eff935d2959c1a705670041a6f2e",
   "emulator/version.json": "d8991427000a96fb97daefdb62178071e9bbff911760706148e584ae8d69f9e7",
-  "index.html": "1163ba99b972b6fc532088a3f41e8829cbdebbd4a297047408d813016115eb6d",
+  "index.html": "7aaa8804e93c4f9ff5924c88cdba20b5ca4edde30d74626f9293afb3a67753e0",
   "manifest.webmanifest": "bfc72e6ca8e3ba84d780f1cf232328f0da598a4c72d96fbd09afa4cc0f58d38c",
-  "roms/nhl26-shoresy-standard-1.10.bin": "b6737382c9c28800066403fd85b4a030b378f2aba3f692dd2c028dc17b365f50",
-  "roms/provenance.json": "f31ca85cd5e0b08614d4854e7cec77a69ef28326e0832f30965525c3ad7deb67",
+  "roms/nhl26-shoresy-standard-beta19.bin": "20c98d314a4655d72067cd09ac3cac13f9d28b1d3f4dc132cc26989745b05da0",
+  "roms/provenance.json": "89eac7171597f5dee64b25baad002ecc6f6d075f40a32574af39a0cbc82cff54",
   "styles.css": "f7f4c28ab48776ae29e6ce529e92ec9ca2d978267d40d3162ea4e76b8a67b373"
 }
