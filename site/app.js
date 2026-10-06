@@ -27,6 +27,10 @@
   window.EJS_gameName = "NHL26 Shoresy Standard Release 1.0";
   window.EJS_gameID = 26100;
   window.EJS_pathtodata = "emulator/";
+  window.EJS_paths = {
+    "emulator.min.js": "emulator/emulator.min.js?v=controllers1",
+    "emulator.js": "emulator/src/emulator.js?v=controllers1"
+  };
   window.EJS_threads = false;
   window.EJS_DEBUG_XX = new URLSearchParams(location.search).has("debug");
   window.EJS_startOnLoaded = false;

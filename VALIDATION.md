@@ -1,5 +1,11 @@
 # Verification record
 
+## Controller detection fixes, 2026-10-06
+
+- Readable and production EmulatorJS builds pass simulated Gamepad API regression checks: controllers connected before startup in browser slots 0, 1, and 3; hotplug with gaps; button presses and releases routed to the correct player; disconnect and reconnect; stale input events.
+- Edge opens the independent controller check. It reports browser visibility separately from the emulator's Player 1 assignment.
+- The user's physical 8BitDo controller remains pending a check with this updated version; simulated regression checks do not establish hardware compatibility.
+
 ## Standard Beta19 update - 2026-10-06
 
 - Replaced the previous Standard 1.10 ROM with the exact standard Beta19 build, without modifying its binary contents.

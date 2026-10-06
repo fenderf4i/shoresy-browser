@@ -1139,9 +1139,14 @@ class EmulatorJS {
         this.gamepad = new GamepadHandler(); //https://github.com/ethanaobrien/Gamepad
         this.gamepad.on("connected", (e) => {
             if (!this.gamepadLabels) return;
+            // Browser slots may contain gaps; the handler's list is compact.
+            const gamepad = this.gamepad.gamepads.find(pad => pad.index === e.gamepadIndex);
+            if (!gamepad) return;
+            const selection = gamepad.id + "_" + gamepad.index;
+            if (this.gamepadSelection.includes(selection)) return;
             for (let i = 0; i < this.gamepadSelection.length; i++) {
                 if (this.gamepadSelection[i] === "") {
-                    this.gamepadSelection[i] = this.gamepad.gamepads[e.gamepadIndex].id + "_" + this.gamepad.gamepads[e.gamepadIndex].index;
+                    this.gamepadSelection[i] = selection;
                     break;
                 }
             }
@@ -1160,6 +1165,8 @@ class EmulatorJS {
         this.gamepad.on("axischanged", this.gamepadEvent.bind(this));
         this.gamepad.on("buttondown", this.gamepadEvent.bind(this));
         this.gamepad.on("buttonup", this.gamepadEvent.bind(this));
+        // The handler polls in its constructor, before listeners are installed.
+        this.gamepad.gamepads.forEach(pad => this.gamepad.dispatchEvent("connected", { gamepadIndex: pad.index }));
     }
     checkSupportedOpts() {
         if (!this.gameManager.supportsStates()) {
@@ -3349,7 +3356,9 @@ class EmulatorJS {
     }
     gamepadEvent(e) {
         if (!this.started) return;
-        const gamepadIndex = this.gamepadSelection.indexOf(this.gamepad.gamepads[e.gamepadIndex].id + "_" + this.gamepad.gamepads[e.gamepadIndex].index);
+        const gamepad = this.gamepad.gamepads.find(pad => pad.index === e.gamepadIndex);
+        if (!gamepad) return;
+        const gamepadIndex = this.gamepadSelection.indexOf(gamepad.id + "_" + gamepad.index);
         if (gamepadIndex < 0) {
             return; // Gamepad not set anywhere
         }

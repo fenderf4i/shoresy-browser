@@ -20,6 +20,8 @@ jobs:
       - uses: actions/checkout@v4
       - name: Verify ROM and website assets
         run: node tools/verify.cjs
+      - name: Verify controller detection and routing
+        run: node tools/test-gamepads.cjs
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:

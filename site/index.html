@@ -12,7 +12,8 @@
   <link rel="apple-touch-icon" href="assets/icon-180.png">
   <link rel="manifest" href="manifest.webmanifest">
   <link rel="stylesheet" href="styles.css">
-  <script defer src="app.js?v=release1.0"></script>
+  <script defer src="app.js?v=release1.0-controllers1"></script>
+  <script defer src="controller-check.js"></script>
 </head>
 <body>
   <main class="shell">
@@ -51,7 +52,16 @@
     <p>Use the <strong>D-pad</strong> to skate and <strong>A / B / C</strong> for the game’s actions. Press <strong>START</strong> to advance the title screen or pause in-game. You can skate and press an action button at the same time.</p>
     <p>The game menu has <strong>Pause, Restart, Save state, and Load state</strong>. Save state downloads a file; Load state lets you pick that file to resume. On iPhone, look in Files → Downloads. Save before leaving the page.</p>
     <p>With a keyboard: <strong>arrow keys</strong> to skate, <strong>A / S / D</strong> for A / B / C, and <strong>Enter</strong> for START. Connected controllers can be mapped in the game menu.</p>
+    <p>With a controller: connect it, tap <strong>Play</strong>, and press a controller button while this page is active. Open the game menu → <strong>Control Settings</strong> to select it for Player 1 or change button mappings.</p>
+    <button type="button" id="controller-check-button" class="help-button">Check controller</button>
     <p>For a home-screen shortcut, use Safari’s Share → Add to Home Screen or Chrome’s menu → Add to Home screen. An internet connection is required to load the game.</p>
+  </dialog>
+  <dialog id="controller-dialog" aria-labelledby="controller-title">
+    <div class="dialog-heading"><h2 id="controller-title">Controller check</h2><button type="button" id="close-controller-check" aria-label="Close controller check">✕</button></div>
+    <p id="controller-status" role="status"></p>
+    <ul id="controller-list" class="controller-list"></ul>
+    <p>If your controller appears here, close this check and select it for <strong>Player 1</strong> in the game’s <strong>Control Settings</strong>. Press buttons or move a stick to see them register above.</p>
+    <p>If it stays missing, reconnect the receiver or USB cable and try again with this page active. Controller details stay on your device.</p>
   </dialog>
   <noscript><p class="noscript">Please enable JavaScript to play Shoresy.</p></noscript>
 </body>

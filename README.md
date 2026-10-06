@@ -10,7 +10,7 @@ Tap **Play**, then press **START**. An internet connection is needed to load the
 
 Open the emulator menu for pause, restart, save state, or load state. A save state is downloaded to the device; load the same file to resume. On iPhone, look in Files / Downloads. The save defaults to a downloaded file rather than promising that browser storage will survive eviction or private browsing. Accounts, cloud saves, and network multiplayer are outside this version.
 
-Keyboard: arrow keys, A/S/D for Genesis A/B/C, Enter for START. Hardware controllers can be configured in the emulator control menu.
+Keyboard: arrow keys, A/S/D for Genesis A/B/C, Enter for START. Hardware controllers can be configured in the emulator control menu. Connect the controller, start the player, and press a controller button with the page active. Under **How to play → Check controller**, a local browser check shows whether the browser sees it and whether its buttons respond.
 
 ## Source integrity
 
@@ -25,7 +25,7 @@ The original build is never edited. See `site/roms/provenance.json`. The previou
 
 ## Emulator
 
-EmulatorJS **4.2.3**, with the official Genesis Plus GX WebGL1 and WebGL2 core archives, is served locally from `site/emulator/`. Threading is disabled to work without COOP/COEP headers on GitHub Pages. Upstream scripts and licenses are preserved; matching upstream source is included. The emulator may check its upstream CDN for an update notification, but game loading does not require a CDN-hosted script or core.
+EmulatorJS **4.2.3**, with the official Genesis Plus GX WebGL1 and WebGL2 core archives, is served locally from `site/emulator/`. Threading is disabled to work without COOP/COEP headers on GitHub Pages. Two local fixes handle controllers connected before startup and browser controller slots with gaps; see [PATCHES.md](site/emulator/PATCHES.md). Modified readable source, the original upstream archive, and licenses are included. The emulator may check its upstream CDN for an update notification, but game loading does not require a CDN-hosted script or core.
 
 See the site's [credits](site/credits.html), [upstream EmulatorJS](https://github.com/EmulatorJS/EmulatorJS/tree/v4.2.3), and [Genesis Plus GX fork](https://github.com/EmulatorJS/Genesis-Plus-GX). Emulator software licensing does not grant rights to the supplied ROM or character artwork.
 
@@ -35,6 +35,7 @@ No package installation or build step is required. With Node 18 or newer:
 
 ```text
 node tools/serve.cjs
+node tools/test-gamepads.cjs
 node tools/verify.cjs http://127.0.0.1:4186/shoresy-browser/
 ```
 

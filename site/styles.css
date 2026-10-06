@@ -40,6 +40,7 @@ dialog::backdrop { background: #000b; }
 .dialog-heading { display: flex; align-items: flex-start; gap: 15px; }.dialog-heading h2 { margin: 0; font-size: 23px; letter-spacing: -.5px; }.dialog-heading button { margin-left: auto; border: none; background: transparent; color: var(--cream); padding: 4px 8px; }
 dialog p { font-size: 13px; line-height: 1.8; color: var(--muted); }dialog strong { color: var(--cream); }
 .noscript { padding: 20px; text-align: center; }
+.controller-list { padding-left: 20px; font-size: 13px; line-height: 1.7; overflow-wrap: anywhere; }.controller-list li { margin-bottom: 12px; }
 /* Specific selectors keep the upstream stylesheet unmodified. */
 #game .ejs_start_button { background: var(--yellow); color: var(--navy); font: 800 18px/1.5 system-ui, sans-serif; border: none; border-radius: 8px; min-width: 164px; padding: 14px 28px; box-shadow: 0 5px 0 #b29237; }
 #game .ejs_start_button:hover { background: #f7d574; }
