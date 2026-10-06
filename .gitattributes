@@ -1,0 +1,5 @@
+# Preserve exact shipped asset bytes on every platform for checksum validation.
+site/** -text
+*.md text eol=lf
+*.cjs text eol=lf
+*.yml text eol=lf

@@ -1,0 +1,81 @@
+:root { color-scheme: dark; --navy: #101b35; --cream: #f6f0dc; --yellow: #edc34a; --muted: #a8b4cd; --rail: clamp(130px, 18vw, 176px); }
+* { box-sizing: border-box; }
+html { background: var(--navy); }
+body { margin: 0; color: var(--cream); font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; background: radial-gradient(ellipse at 10% 0%, #233453 0, var(--navy) 55%); }
+button, a, input { -webkit-tap-highlight-color: transparent; }
+button, a { touch-action: manipulation; }
+button { font: inherit; cursor: pointer; }
+a { color: inherit; }
+[hidden] { display: none !important; }
+:focus-visible { outline: 3px solid var(--yellow); outline-offset: 4px; }
+.shell { max-width: 1152px; margin: auto; padding: 22px 32px 18px; }
+.masthead { display: flex; align-items: center; gap: 24px; border-bottom: 1px solid #ffffff20; padding-bottom: 18px; }
+.wordmark { font-size: 29px; font-weight: 950; font-style: italic; letter-spacing: -1.4px; text-decoration: none; }
+.wordmark-dot { color: var(--yellow); }
+.edition { font: 650 10px/1.3 system-ui, sans-serif; letter-spacing: 1.4px; color: var(--muted); }
+.edition span { margin: 0 7px; color: var(--yellow); }
+.help-button { margin-left: auto; background: transparent; border: 1px solid #ffffff40; border-radius: 7px; padding: 9px 13px; color: var(--cream); font-size: 12px; }
+.help-button:hover { background: #ffffff12; }
+.intro { display: flex; justify-content: space-between; align-items: flex-end; margin: 30px 0 25px; }
+.eyebrow { font-size: 10px; font-weight: 800; letter-spacing: 2px; color: var(--yellow); margin: 0 0 10px; }
+h1 { font-size: clamp(28px, 4vw, 46px); line-height: 1.06; letter-spacing: -1.7px; margin: 0; font-weight: 850; }
+.intro-note { color: var(--muted); font-size: 13px; line-height: 1.7; margin: 0 0 2px; }
+.arena { position: relative; height: min(62vh, 570px); min-height: 360px; overflow: hidden; border: 1px solid #ffffff25; border-radius: 12px; background: #050a14; box-shadow: 0 20px 50px #0004; touch-action: none; }
+#game { width: 100%; height: 100%; }
+.load-status { position: absolute; inset: auto 0 22px; text-align: center; color: var(--muted); font-size: 13px; pointer-events: none; }
+.load-error { position: absolute; z-index: 30; inset: 0; display: flex; align-items: center; justify-content: center; flex-direction: column; padding: 28px; background: var(--navy); text-align: center; }
+.load-error h2 { font-size: 23px; }.load-error p { max-width: 420px; color: var(--muted); }
+.load-error button { background: var(--yellow); color: var(--navy); border: none; border-radius: 6px; padding: 13px 24px; font-weight: 750; }
+.under-rink { display: flex; align-items: center; justify-content: space-between; gap: 16px; color: var(--muted); font-size: 11px; margin: 10px 2px 24px; }
+.under-rink p { margin: 0; display: flex; align-items: center; gap: 7px; }
+.live-dot { width: 5px; height: 5px; border-radius: 50%; background: var(--yellow); }
+.touch-toggle { display: flex; align-items: center; gap: 7px; cursor: pointer; min-height: 32px; }
+.touch-toggle input { accent-color: var(--yellow); width: 17px; height: 17px; margin: 0; }
+.quick-guide { display: grid; grid-template-columns: repeat(3, 1fr); gap: 30px; padding: 0 2px 22px; border-bottom: 1px solid #ffffff20; }
+.step { color: var(--yellow); font-size: 10px; font-weight: 850; margin-right: 9px; }.quick-guide strong { font-size: 12px; }.quick-guide p { font-size: 11px; line-height: 1.6; color: var(--muted); margin: 6px 0 0 25px; }
+footer { display: flex; justify-content: space-between; gap: 15px; margin: 16px 0 0; color: #7e8ba7; font-size: 9px; letter-spacing: .5px; }
+footer a { text-decoration: none; }
+dialog { background: #172641; color: var(--cream); border: 1px solid #ffffff30; border-radius: 12px; padding: 24px; width: min(560px, calc(100% - 28px)); max-height: calc(100dvh - 40px); }
+dialog::backdrop { background: #000b; }
+.dialog-heading { display: flex; align-items: flex-start; gap: 15px; }.dialog-heading h2 { margin: 0; font-size: 23px; letter-spacing: -.5px; }.dialog-heading button { margin-left: auto; border: none; background: transparent; color: var(--cream); padding: 4px 8px; }
+dialog p { font-size: 13px; line-height: 1.8; color: var(--muted); }dialog strong { color: var(--cream); }
+.noscript { padding: 20px; text-align: center; }
+/* Specific selectors keep the upstream stylesheet unmodified. */
+#game .ejs_start_button { background: var(--yellow); color: var(--navy); font: 800 18px/1.5 system-ui, sans-serif; border: none; border-radius: 8px; min-width: 164px; padding: 14px 28px; box-shadow: 0 5px 0 #b29237; }
+#game .ejs_start_button:hover { background: #f7d574; }
+#game .ejs_canvas { image-rendering: pixelated; }
+#game .ejs_virtualGamepad_parent { bottom: 0; height: 100%; pointer-events: none; }
+#game .ejs_virtualGamepad_left { left: 10px; bottom: 50%; transform: translateY(50%); width: 120px; height: 120px; pointer-events: auto; }
+#game .ejs_virtualGamepad_right { right: 8px; bottom: 50%; transform: translateY(50%); width: 140px; height: 140px; pointer-events: auto; }
+#game .ejs_virtualGamepad_bottom { bottom: 10px; width: 124px; height: 32px; pointer-events: auto; }
+#game .ejs_virtualGamepad_button { width: 54px; height: 54px; line-height: 52px; background: #263855; border: 2px solid #7487a8; color: var(--cream); box-shadow: 0 4px 0 #080f20; touch-action: none; transition: background .05s; }
+#game .ejs_virtualGamepad_button_down { background: #9e8132; border-color: var(--yellow); box-shadow: none; }
+#game .b_start { width: 82px !important; height: 30px; line-height: 28px; border-radius: 20px; letter-spacing: 1px; left: 21px !important; }
+#game .ejs_dpad_main { opacity: 1; }
+#game .ejs_dpad_bar { background: #536887; }
+#game .ejs_virtualGamepad_open { z-index: 12; top: 10px; right: 10px; width: 40px; height: 40px; background: #172641dd; border: 1px solid #7487a8; border-radius: 7px; }
+.touch-layout #game .ejs_canvas_parent { position: absolute; left: var(--rail); width: calc(100% - 2 * var(--rail)); height: 100%; }
+@media (max-width: 620px) {
+  .shell { padding: max(14px, env(safe-area-inset-top)) 14px 18px; }
+  .masthead { gap: 10px; padding-bottom: 12px; }.wordmark { font-size: 24px; }.edition { font-size: 8px; letter-spacing: .4px; }.edition span { margin: 0 3px; }.help-button { padding: 9px; font-size: 10px; }
+  .intro { margin: 22px 0 18px; }.intro-note { display: none; }h1 { font-size: 32px; }
+  .quick-guide { gap: 12px; }.quick-guide strong { font-size: 11px; }.quick-guide p { margin-left: 0; font-size: 10px; }.step { display: block; margin: 0 0 6px; }
+  footer { font-size: 8px; }
+}
+@media (orientation: portrait) {
+  .touch-layout .arena { height: calc((100vw - 30px) * .75 + 210px); min-height: 0; max-height: 740px; }
+  .touch-layout #game .ejs_canvas_parent { top: 0; left: 0; width: 100%; height: calc(100% - 210px); }
+  .touch-layout #game .ejs_virtualGamepad_left, .touch-layout #game .ejs_virtualGamepad_right { bottom: 60px; transform: none; }
+  .touch-layout #game .ejs_virtualGamepad_bottom { bottom: 20px; }
+  .playing.touch-layout .intro { display: none; }
+}
+@media (orientation: landscape) and (max-height: 600px) {
+  .shell { max-width: none; padding: env(safe-area-inset-top) max(8px, env(safe-area-inset-right)) env(safe-area-inset-bottom) max(8px, env(safe-area-inset-left)); }
+  .masthead { height: 40px; padding: 3px 4px; border: none; gap: 12px; }.wordmark { font-size: 21px; }.edition { font-size: 9px; letter-spacing: .5px; }.help-button { font-size: 10px; padding: 7px 10px; }
+  .intro, .quick-guide, footer, .under-rink { display: none; }
+  .arena { height: calc(100vh - 40px - env(safe-area-inset-top) - env(safe-area-inset-bottom)); height: calc(100dvh - 40px - env(safe-area-inset-top) - env(safe-area-inset-bottom)); min-height: 0; border-radius: 8px; }
+  .touch-layout #game .ejs_virtualGamepad_left { left: 5px; width: 112px; height: 112px; }
+  .touch-layout #game .ejs_virtualGamepad_right { right: 3px; width: 128px; }
+  #game .ejs_virtualGamepad_button { width: 50px; height: 50px; line-height: 48px; }
+}
+@media (prefers-reduced-motion: reduce) { *, *::before, *::after { animation: none !important; transition: none !important; } }

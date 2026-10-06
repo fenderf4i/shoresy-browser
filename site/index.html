@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#101b35">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="description" content="Play NHL26 Shoresy Edition in your browser. Touch controls for iPhone and Android.">
+  <title>Shoresy — Play Hockey</title>
+  <link rel="icon" href="assets/icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="assets/icon-180.png">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="app.js"></script>
+</head>
+<body>
+  <main class="shell">
+    <header class="masthead">
+      <a class="wordmark" href="./" aria-label="Shoresy home">SHORESY<span class="wordmark-dot">.</span></a>
+      <span class="edition">NHL26 <span>/</span> STANDARD 1.10</span>
+      <button class="help-button" id="help-button" type="button" aria-haspopup="dialog">How to play</button>
+    </header>
+    <section class="intro" aria-label="Welcome">
+      <div><p class="eyebrow">SUDBURY. ANYWHERE.</p><h1>Give your thumbs<br>a little ice time.</h1></div>
+      <p class="intro-note">Your rink. Your phone.<br>Turn sideways, tap Play, drop the puck.</p>
+    </section>
+    <section class="arena" id="arena" aria-label="Shoresy Genesis game">
+      <div id="game"></div>
+      <p id="load-status" class="load-status" role="status">Getting the rink ready…</p>
+      <div id="load-error" class="load-error" role="alert" hidden>
+        <h2>The game couldn’t load.</h2>
+        <p id="error-message">Check your connection, then try again.</p>
+        <button type="button" id="retry-button">Try again</button>
+      </div>
+    </section>
+    <div class="under-rink">
+      <p><span class="live-dot" aria-hidden="true"></span><span id="game-status">Tap Play to start</span></p>
+      <label class="touch-toggle"><input id="touch-toggle" type="checkbox"> Touch controls</label>
+    </div>
+    <section class="quick-guide" aria-label="Quick guide">
+      <div><span class="step">01</span><strong>Turn sideways</strong><p>Landscape gives you more room to skate.</p></div>
+      <div><span class="step">02</span><strong>Drop the puck</strong><p>Use the D-pad, A / B / C, and START.</p></div>
+      <div><span class="step">03</span><strong>Keep your place</strong><p>Open the game menu to save or load a state.</p></div>
+    </section>
+    <footer><span>NHL26 · SHORESY EDITION · STANDARD 1.10</span><a href="credits.html">Credits &amp; software</a></footer>
+  </main>
+  <dialog id="help-dialog" aria-labelledby="help-title">
+    <div class="dialog-heading"><h2 id="help-title">A little pregame briefing.</h2><button type="button" id="close-help" aria-label="Close instructions">✕</button></div>
+    <p>On iPhone, open in <strong>Safari</strong>. On Android, use <strong>Chrome</strong>. Turn your phone sideways and tap <strong>Play</strong>. The game loads automatically.</p>
+    <p>Use the <strong>D-pad</strong> to skate and <strong>A / B / C</strong> for the game’s actions. Press <strong>START</strong> to advance the title screen or pause in-game. You can skate and press an action button at the same time.</p>
+    <p>The game menu has <strong>Pause, Restart, Save state, and Load state</strong>. Save state downloads a file; Load state lets you pick that file to resume. On iPhone, look in Files → Downloads. Save before leaving the page.</p>
+    <p>With a keyboard: <strong>arrow keys</strong> to skate, <strong>A / S / D</strong> for A / B / C, and <strong>Enter</strong> for START. Connected controllers can be mapped in the game menu.</p>
+    <p>For a home-screen shortcut, use Safari’s Share → Add to Home Screen or Chrome’s menu → Add to Home screen. An internet connection is required to load the game.</p>
+  </dialog>
+  <noscript><p class="noscript">Please enable JavaScript to play Shoresy.</p></noscript>
+</body>
+</html>
