@@ -27,9 +27,9 @@
   "emulator/src/socket.io.min.js": "b0e735814f8dcfecd6cdb8a7ce95a297a7e1e5f2727a29e6f5901801d52fa0c5",
   "emulator/src/storage.js": "06759f310bb2d782d2728e1d3417a0d8f613eff935d2959c1a705670041a6f2e",
   "emulator/version.json": "d8991427000a96fb97daefdb62178071e9bbff911760706148e584ae8d69f9e7",
-  "index.html": "0d2f74832e5dfa86b1b198b4edc4b977a881ba5683868ee1a7e519520f7debbc",
+  "index.html": "1163ba99b972b6fc532088a3f41e8829cbdebbd4a297047408d813016115eb6d",
   "manifest.webmanifest": "bfc72e6ca8e3ba84d780f1cf232328f0da598a4c72d96fbd09afa4cc0f58d38c",
   "roms/nhl26-shoresy-standard-1.10.bin": "b6737382c9c28800066403fd85b4a030b378f2aba3f692dd2c028dc17b365f50",
   "roms/provenance.json": "f31ca85cd5e0b08614d4854e7cec77a69ef28326e0832f30965525c3ad7deb67",
-  "styles.css": "9e018f419e1daa726a0d4e28af1429ced4e3f748672e05a470d962ac326a629f"
+  "styles.css": "f72409e5b78c00e2d88f66d0ca8acffea6d5453325840905f9ae9464633ef443"
 }

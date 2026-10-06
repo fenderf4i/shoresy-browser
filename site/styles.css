@@ -53,7 +53,8 @@ dialog p { font-size: 13px; line-height: 1.8; color: var(--muted); }dialog stron
 #game .b_start { width: 82px !important; height: 30px; line-height: 28px; border-radius: 20px; letter-spacing: 1px; left: 21px !important; }
 #game .ejs_dpad_main { opacity: 1; }
 #game .ejs_dpad_bar { background: #536887; }
-#game .ejs_virtualGamepad_open { z-index: 12; top: 10px; right: 10px; width: 40px; height: 40px; background: #172641dd; border: 1px solid #7487a8; border-radius: 7px; }
+#game .ejs_virtualGamepad_open { z-index: 12; top: 10px; right: 10px; width: 32px; height: 32px; display: flex; align-items: center; justify-content: center; background: #172641dd; border: 1px solid #7487a8; border-radius: 6px; }
+#game .ejs_virtualGamepad_open svg { width: 18px; height: 18px; }
 .touch-layout #game .ejs_canvas_parent { position: absolute; left: var(--rail); width: calc(100% - 2 * var(--rail)); height: 100%; }
 @media (max-width: 620px) {
   .shell { padding: max(14px, env(safe-area-inset-top)) 14px 18px; }

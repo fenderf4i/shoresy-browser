@@ -1,12 +1,12 @@
 # NHL26 Shoresy Browser Player
 
-An automatic-loading browser player for the supplied **NHL26 Shoresy Edition — Standard 1.10** Genesis ROM. Designed for landscape play in iPhone Safari and Android Chrome, with portrait support, a home-screen manifest, touch D-pad / A / B / C / START, keyboard and controller mapping, pause/restart, and save-state download/import.
+An automatic-loading browser player for the supplied **NHL26 Shoresy Edition — Standard 1.10** Genesis ROM. Designed for portrait play in iPhone Safari and Android Chrome, with landscape support, a home-screen manifest, touch D-pad / A / B / C / START, keyboard and controller mapping, pause/restart, and save-state download/import.
 
 ## Play
 
 https://fenderf4i.github.io/shoresy-browser/
 
-Turn the phone sideways, tap **Play**, then press **START**. An internet connection is needed to load the site. This version does not promise offline play.
+Tap **Play**, then press **START**. An internet connection is needed to load the site. This version does not promise offline play.
 
 Open the emulator menu for pause, restart, save state, or load state. A save state is downloaded to the device; load the same file to resume. On iPhone, look in Files / Downloads. The save defaults to a downloaded file rather than promising that browser storage will survive eviction or private browsing. Accounts, cloud saves, and network multiplayer are outside this version.
 
