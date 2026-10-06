@@ -6,6 +6,9 @@
 - SHA-256: `20c98d314a4655d72067cd09ac3cac13f9d28b1d3f4dc132cc26989745b05da0`; size: 3,145,728 bytes.
 - Local verification and HTTP verification passed for all 33 assets. JavaScript syntax and Git whitespace checks passed.
 - A fresh Edge browser session rendered the Bulldogs/NOSHO startup artwork.
+- GitHub Pages deployment of commit `a7970d85ad14fb3c1cfe5aafbad9395fb08a0799` succeeded: https://github.com/fenderf4i/shoresy-browser/actions/runs/37459972757
+- HTTPS verification passed for every published runtime asset, including the exact Beta19 ROM. The live page visibly identifies Standard Beta19 and renders the custom boot artwork. A local screenshot is retained at `qa/beta19/published-beta19.png`.
+- This update's Edge browser check confirms startup artwork; reaching the team menu and gameplay in the hosted Beta19 session is not separately confirmed.
 - The source Beta19 build's separate Genesis Plus GX regression evidence confirms Sudbury as the default Home team and Winnipeg as Away, all 33 team selections, and responsive gameplay. This is source-build evidence, separate from the website checks.
 - The previous website build remains recoverable at Git commit `c533e374d5c04ca9352a3cb248e00241729b4b26`.
 - New ROM URL, game ID, and script version prevent reuse of the previous ROM cache. Existing save states are not migrated or verified against Beta19.
