@@ -1,6 +1,6 @@
 # NHL26 Shoresy Browser Player
 
-An automatic-loading browser player for **NHL26 Shoresy Edition — Standard 1.01** Genesis ROM. Designed for portrait play in iPhone Safari and Android Chrome, with landscape support, a home-screen manifest, touch D-pad / A / B / C / START, keyboard and controller mapping, pause/restart, and save-state download/import.
+An automatic-loading browser player for **NHL26 Shoresy Edition — Standard 1.02** Genesis ROM. Designed for portrait play in iPhone Safari and Android Chrome, with landscape support, a home-screen manifest, touch D-pad / A / B / C / START, keyboard and controller mapping, pause/restart, and save-state download/import.
 
 ## Play
 
@@ -14,16 +14,23 @@ Keyboard: arrow keys, A/S/D for Genesis A/B/C, Enter for START. Hardware control
 
 ## Source integrity
 
-Release **1.01** retains the original conversation plus three approved additions for each announcer pair: eight native pregame conversations in total, with all swearing removed. The ROM chooses one conversation once per pregame; repeats are allowed, and a save state retains its choice. Sudbury home/away and NHL-only wording remains appropriate to the matchup. Same-team games omit the away-player exchange.
+Release **1.02** includes the approved five-skater pregame brawl in 50% of eligible
+Bulldogs games, with staggered fights and celebrations and every Bulldog winning.
+Goalies stay in their creases; START skips. The original faceoff and gameplay state
+are restored before play. Jim 1, Jim 2 and Jim 3 have maximum native fighting ratings.
+All eight clean-language pregame conversations from Release 1.01 remain, including
+both originals. The proposed once-per-period fight trigger remains research only.
 
-The browser serves the exact verified standalone `NHL26-Shoresy Edition-Standard-1.01.md` build under a `.bin` extension. No runtime ROM patches are applied.
+The browser serves the exact verified standalone `NHL26-Shoresy Edition-Standard-1.02.md`
+as `.bin`. No runtime ROM patches are applied.
 
 - Size: 3,145,728 bytes
-- SHA-256: `a15036d64ad511eb7b40f486372cdead29f3dadfda867528f403d0c10c0e1140`
-- Version: Standard 1.01 (33 teams; Sudbury defaults to Home, Winnipeg to Away)
+- SHA-256: `edce0adfec05248d3c87da663f9230dc7f666a5d5093ac3427e11550c923d5a7`
+- Version: Standard 1.02 (33 teams; Sudbury Home, Winnipeg Away)
 - Header base-game credit: JKline3 & von Ozbourne
 
-Release 1.00 remains preserved at its existing ROM URL and in Git. Each build uses a distinct ROM URL and game ID so it loads fresh. Artwork, roster, ratings, gameplay, default teams and menu portrait order match Release 1.00. See `site/roms/provenance.json`.
+Prior releases and review prototypes remain preserved. Release 1.02 uses a new ROM
+URL and game ID. See `site/roms/provenance.json` and the [actual release video](site/brawl-preview/index.html).
 
 ## Emulator
 

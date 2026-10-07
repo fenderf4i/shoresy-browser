@@ -1,3 +1,17 @@
+# Release 1.02 — five-skater pregame brawl
+
+- 1536 actual production game starts across both versions and three Bulldogs matchup roles: 726 brawls (47.27%), every outcome matched its native 50% draw.
+- All eight announcer choices exercised in every role/version; dialogue/routing bytes retained from Release 1.01.
+- All 52 native runtime scenarios passed: five wins, mixed/staggered celebrations, facing/mirroring, goalie preservation, skips, save/load, restoration of actors, colors, faceoff map, and normal clock advancement. NHL-only exclusion passed.
+- Byte audit: approved choreography identical; only probability threshold and checksum differ from the review ROM. Native fight engine/player loader unchanged. Maximum Jim fighting verified through native loading using a separate lineup-only fixture.
+- Standard/Widescreen ROMs and clean-source IPS patches reproduce byte-for-byte; IPS roundtrips pass.
+- Actual Release 1.02 video includes audio and return to normal play. Physical devices were not newly tested by these checks.
+
+Release artifacts and complete evidence: private `outputs/Bulldogs_NHL26_Release_1_02`.
+Public runtime integrity: `site/roms/provenance.json`.
+
+---
+
 # Release 1.01 - random pregame conversations (2026-10-06)
 
 - Eight native choices: the original plus three approved additions for each pair. Every active conversation is free of swearing. Original wording is retained except profanity removal; the original French sequence is preserved.
