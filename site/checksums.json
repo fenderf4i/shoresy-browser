@@ -1,13 +1,13 @@
 {
   ".nojekyll": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-  "app.js": "aa5a78f7b659dc08f5ae23ba4da12daab481056e5d6a3451585cce8395280d5e",
+  "app.js": "13469b39da46230fd6383fb376b42d5cb9cc3490835455637fc8d3db957c58eb",
   "assets/icon-180.png": "7cd4e82139c7947ff07200f5b9ed0863e800f2eacc37ddf237c1d3c84cab61ca",
   "assets/icon-192.png": "95c330507dfd9dbebdf2dde56e0c2b4216cb207a21e49e304b2760d6a816d902",
   "assets/icon-512.png": "b95cc69766415198c74dd5131fcf6f0e355d499e5ec5087c615fcd02af17a37b",
   "assets/icon.svg": "1d28da82e2fafd70cb2a789c3fbe55ca58a960205878b91fe43c33e247e2343e",
   "assets/rink.svg": "636acc643acee01109b042901f56e4d96c01084a05c00cbe2eb9b57bcfc1a6d5",
   "controller-check.js": "9a280e58771d174c275ce692222dc534e0a5f8c42c3e5ffb62e59e36794c67a9",
-  "credits.html": "f528c63daa260dd22735b9ca66552b8cc43ed225d59ba5ec435cf28c4cea7c71",
+  "credits.html": "c9ac993313cf7c2b06fb950f9814425f338b9893a793b5af0494d199da257a72",
   "emulator/EmulatorJS-v4.2.3-source.tar.gz": "7dde1d271379d884bd433a1153d6f24b027180363141a300bb94cb81a287d6d1",
   "emulator/LICENSE": "a617fab6d251b3302b1cb2c1c94f52d1c584f6fcb2fc218ec1a475bc08053a61",
   "emulator/PATCHES.md": "3840344ec1df9f8d9ed0c678bea6f6d56697af8507790c7173878de82d4d0064",
@@ -29,9 +29,10 @@
   "emulator/src/socket.io.min.js": "b0e735814f8dcfecd6cdb8a7ce95a297a7e1e5f2727a29e6f5901801d52fa0c5",
   "emulator/src/storage.js": "06759f310bb2d782d2728e1d3417a0d8f613eff935d2959c1a705670041a6f2e",
   "emulator/version.json": "d8991427000a96fb97daefdb62178071e9bbff911760706148e584ae8d69f9e7",
-  "index.html": "90cbf6c6cfedb9abbf7934f38038244456b6572661f84dd8d57678ff37451819",
+  "index.html": "fd9bf1b72be265e5e4ccc59e8c8767b7a053232aff086be5d0f6c563f977d89f",
   "manifest.webmanifest": "bfc72e6ca8e3ba84d780f1cf232328f0da598a4c72d96fbd09afa4cc0f58d38c",
+  "roms/nhl26-shoresy-standard-1.01.bin": "a15036d64ad511eb7b40f486372cdead29f3dadfda867528f403d0c10c0e1140",
   "roms/nhl26-shoresy-standard-release-1.0.bin": "14c0990fbe2afdf121a30e9198f7b8c9cf0b05eca3f6f562f642fc8e50514290",
-  "roms/provenance.json": "b360d73e289d990bfce8502d057b42aea979d24a784c2aa2746a84bc9a79675d",
+  "roms/provenance.json": "189b6ae77eb37adeb790aa6795ecba9b77e7a5d9f5f0e728f5a8f289ac6b2fcc",
   "styles.css": "c30931fa574e0117c1906c31232e15ed9580de8af81f8454f2ee06677cd833de"
 }

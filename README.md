@@ -1,6 +1,6 @@
 # NHL26 Shoresy Browser Player
 
-An automatic-loading browser player for **NHL26 Shoresy Edition — Standard Release 1.0** Genesis ROM. Designed for portrait play in iPhone Safari and Android Chrome, with landscape support, a home-screen manifest, touch D-pad / A / B / C / START, keyboard and controller mapping, pause/restart, and save-state download/import.
+An automatic-loading browser player for **NHL26 Shoresy Edition — Standard 1.01** Genesis ROM. Designed for portrait play in iPhone Safari and Android Chrome, with landscape support, a home-screen manifest, touch D-pad / A / B / C / START, keyboard and controller mapping, pause/restart, and save-state download/import.
 
 ## Play
 
@@ -14,14 +14,16 @@ Keyboard: arrow keys, A/S/D for Genesis A/B/C, Enter for START. Hardware control
 
 ## Source integrity
 
-The attached `.md` is a Mega Drive binary, not a Markdown document. It is published as `.bin` with **no byte changes**.
+Release **1.01** retains the original conversation plus three approved additions for each announcer pair: eight native pregame conversations in total, with all swearing removed. The ROM chooses one conversation once per pregame; repeats are allowed, and a save state retains its choice. Sudbury home/away and NHL-only wording remains appropriate to the matchup. Same-team games omit the away-player exchange.
+
+The browser serves the exact verified standalone `NHL26-Shoresy Edition-Standard-1.01.md` build under a `.bin` extension. No runtime ROM patches are applied.
 
 - Size: 3,145,728 bytes
-- SHA-256: `14c0990fbe2afdf121a30e9198f7b8c9cf0b05eca3f6f562f642fc8e50514290`
-- Version: Standard Release 1.0 (33 teams; Sudbury defaults to Home, Winnipeg to Away)
+- SHA-256: `a15036d64ad511eb7b40f486372cdead29f3dadfda867528f403d0c10c0e1140`
+- Version: Standard 1.01 (33 teams; Sudbury defaults to Home, Winnipeg to Away)
 - Header base-game credit: JKline3 & von Ozbourne
 
-The original build is never edited. See `site/roms/provenance.json`. The previous Standard 1.10 website is preserved in Git at commit `c533e374d5c04ca9352a3cb248e00241729b4b26`. Each build uses a distinct ROM URL and game ID so it loads fresh instead of reusing the previous game's cache.
+Release 1.00 remains preserved at its existing ROM URL and in Git. Each build uses a distinct ROM URL and game ID so it loads fresh. Artwork, roster, ratings, gameplay, default teams and menu portrait order match Release 1.00. See `site/roms/provenance.json`.
 
 ## Emulator
 

@@ -11,7 +11,7 @@ const expected = JSON.parse(fs.readFileSync(path.join(root,'checksums.json'),'ut
 const meta = JSON.parse(fs.readFileSync(path.join(root,'roms/provenance.json'),'utf8'));
 const rom = fs.readFileSync(path.join(root,'roms',meta.publishedFilename));
 assert.equal(rom.length, meta.bytes);
-assert.equal(sha(rom), meta.sha256, 'The supplied ROM must remain unchanged');
+assert.equal(sha(rom), meta.sha256, 'The hosted ROM must match the verified release build');
 assert.equal(rom.subarray(0x100,0x10c).toString('ascii'), 'SEGA GENESIS');
 assert.ok(fs.existsSync(path.join(root,'.nojekyll')));
 assert.equal(files.length, Object.keys(expected).length, 'Regenerate checksums after adding files');

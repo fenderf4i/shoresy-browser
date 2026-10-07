@@ -1,13 +1,25 @@
 {
-  "version": "NHL26 Shoresy Edition - Standard Release 1.0",
-  "suppliedFilename": "NHL26_Bulldogs_33_Teams_Standard_Release_1_0.md",
-  "publishedFilename": "nhl26-shoresy-standard-release-1.0.bin",
+  "version": "NHL26 Shoresy Edition - Standard 1.01",
+  "suppliedFilename": "NHL26-Shoresy Edition-Standard-1.01.md",
+  "publishedFilename": "nhl26-shoresy-standard-1.01.bin",
   "bytes": 3145728,
-  "sha256": "14c0990fbe2afdf121a30e9198f7b8c9cf0b05eca3f6f562f642fc8e50514290",
+  "sha256": "a15036d64ad511eb7b40f486372cdead29f3dadfda867528f403d0c10c0e1140",
   "defaultHomeTeam": "Sudbury",
   "defaultAwayTeam": "Winnipeg",
-  "modifications": "None. Extension changed from .md (Mega Drive) to .bin; binary contents are identical.",
+  "modifications": "Release 1.01 built from exact Release 1.00 with eight native pregame conversations: original plus three approved new conversations per pair; all active conversations use clean language. Random selection is latched once per pregame. Published .bin is byte-identical to the standalone .md release build.",
   "headerDomesticTitle": "NHL Hockey '26 -'94 Edition",
   "headerOverseasTitle": "NHL 2026 - 94 Edition by JKline3 & von Ozbourne",
-  "menuPortraitOrder": "Michaels, Goody, Fish, Sommerfeld, JJ Frankie JJ, Delaney, Jim 2, Jim 1, Shoresy, Dolo, Schmidt, Hitch, Jim 3, Brett Skrupski"
+  "menuPortraitOrder": "Michaels, Goody, Fish, Sommerfeld, JJ Frankie JJ, Delaney, Jim 2, Jim 1, Shoresy, Dolo, Schmidt, Hitch, Jim 3, Brett Skrupski",
+  "baseReleaseSha256": "14c0990fbe2afdf121a30e9198f7b8c9cf0b05eca3f6f562f642fc8e50514290",
+  "announcerConversations": {
+    "pairs": [
+      "Anik Archambault / Jay Onrait",
+      "Remy Nadeau / Benny Brodeur"
+    ],
+    "perPair": 4,
+    "total": 8,
+    "includesOriginals": true,
+    "swearing": false,
+    "selection": "Native ROM RNG once per pregame; repeats allowed; save states retain their selected conversation."
+  }
 }

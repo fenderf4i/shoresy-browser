@@ -1,3 +1,20 @@
+# Release 1.01 - random pregame conversations (2026-10-06)
+
+- Eight native choices: the original plus three approved additions for each pair. Every active conversation is free of swearing. Original wording is retained except profanity removal; the original French sequence is preserved.
+- Both exact Release 1.00 source ROMs remain unchanged. New filenames follow Standard/Widescreen-1.01. Each new build is 3,145,728 bytes; all changes are guarded to pregame dialogue/routing/selection/timing slots and checksum.
+- A second build through the private repository wrapper reproduces Standard/Widescreen MD, clean-source IPS and Build_Report byte-for-byte. IPS roundtrips pass.
+- Actual Genesis Plus GX runs: **64 complete conversations** (8 choices x 4 matchup roles x 2 versions). Sudbury home, away, same-team and NHL-only all pass. Same-team scripts show 18 turns; other matchups show 20.
+- **512 native RNG draws** from menu wait variations exercise every choice in every version/role. No forced selection, modified RAM or diagnostic ROM is used. The selection remains fixed through playback and save-state restore.
+- Every active spoken text continuation remains within its selected paragraph. Leading player substitutions receive a compiler blank to avoid the native offset-zero truncation bug; approved visible wording is unchanged.
+- Native word/punctuation timing, speaker-change pauses, VRAM banks, live/RAM palettes and portrait frame checks pass. A/C retain portrait state. All **16 independent early-skip checks** reach actual gameplay.
+- Sixteen full home conversations were captured using the core's correct RGB565 output conversion. Contact sheets and selected full paragraphs were visually reviewed, including both approved Benny replacements and the Anik statistics exchange.
+- Website asset hashes, exact final Standard ROM hash and both controller regression suites pass locally and over the local HTTP preview. The 1.01 page starts in Edge. Existing controller fixes and touch/aspect CSS are retained.
+- Physical MiSTer, iPhone and Android validation remains a user check. Browser startup and native emulator verification do not establish physical-device testing.
+
+The full private release evidence is in `outputs/Bulldogs_NHL26_Release_1_01/Validation` of the Shoresy ROM repository. The public website ships the exact verified Standard bytes; see `site/roms/provenance.json`.
+
+---
+
 # Verification record
 
 ## Controller detection fixes, 2026-10-06
