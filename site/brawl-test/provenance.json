@@ -1,0 +1,229 @@
+{
+  "experimental": true,
+  "review": "Separate team brawl test 1",
+  "chance_percent": 100,
+  "pairs": 5,
+  "goalies": "Stay in their creases",
+  "timing_offsets_frames": [
+    0,
+    13,
+    29,
+    41,
+    56
+  ],
+  "all_Bulldogs_win": true,
+  "celebrations": [
+    "Native arm pump 0x0EFC",
+    "Native goal celebration 0x0E8A"
+  ],
+  "scene_frames": 632,
+  "fade_out_frames": 32,
+  "fade_in_frames": 32,
+  "ram": "E000..F99F; pair records at F900..F99F",
+  "accepted_single_pair_scene_replaced": false,
+  "released_game_replaced": false,
+  "jim_fights_once_per_period": "Research only; no forced-fight trigger added",
+  "builds": [
+    {
+      "version": "Standard",
+      "filename": "NHL26-Shoresy Edition-Standard-1.02.md",
+      "base_sha256": "a15036d64ad511eb7b40f486372cdead29f3dadfda867528f403d0c10c0e1140",
+      "sha256": "b187185062af60c264d74e697d9d578e0a621be8a16e0bbb7140c1bbb00136eb",
+      "jim_fighting": [
+        {
+          "name": "Jim 2",
+          "roster_index": 7,
+          "offset": "0x2f6124",
+          "before_byte": "0x60",
+          "after_byte": "0x6e",
+          "native_fighting_before": 0,
+          "native_fighting_after": 14,
+          "rating": "7/7 (maximum)",
+          "handedness_preserved": true,
+          "checking_preserved": true
+        },
+        {
+          "name": "Jim 1",
+          "roster_index": 8,
+          "offset": "0x2f6134",
+          "before_byte": "0x60",
+          "after_byte": "0x6e",
+          "native_fighting_before": 0,
+          "native_fighting_after": 14,
+          "rating": "7/7 (maximum)",
+          "handedness_preserved": true,
+          "checking_preserved": true
+        },
+        {
+          "name": "Jim 3",
+          "roster_index": 13,
+          "offset": "0x2f6186",
+          "before_byte": "0x60",
+          "after_byte": "0x6e",
+          "native_fighting_before": 0,
+          "native_fighting_after": 14,
+          "rating": "7/7 (maximum)",
+          "handedness_preserved": true,
+          "checking_preserved": true
+        }
+      ],
+      "changes": [
+        {
+          "address": "0x260000",
+          "size": 70
+        },
+        {
+          "address": "0x260200",
+          "size": 3038
+        },
+        {
+          "address": "0x263000",
+          "size": 106
+        },
+        {
+          "address": "0x17722",
+          "size": 6
+        },
+        {
+          "address": "0x7742",
+          "size": 8
+        },
+        {
+          "address": "0x795e",
+          "size": 8
+        },
+        {
+          "address": "0x2f6124",
+          "size": 1
+        },
+        {
+          "address": "0x2f6134",
+          "size": 1
+        },
+        {
+          "address": "0x2f6186",
+          "size": 1
+        },
+        {
+          "address": "0x18e",
+          "size": 2
+        }
+      ]
+    },
+    {
+      "version": "Widescreen",
+      "filename": "NHL26-Shoresy Edition-Widescreen-1.02.md",
+      "base_sha256": "07956f5038821b99480caeac350f9a25beafbd8d8102995f50d6353cfa0f8de5",
+      "sha256": "cdc06aec7a7a33ce5401dade6ffb3f9f14b04a355154140b5dd2f00bb88e79ae",
+      "jim_fighting": [
+        {
+          "name": "Jim 2",
+          "roster_index": 7,
+          "offset": "0x2f6124",
+          "before_byte": "0x60",
+          "after_byte": "0x6e",
+          "native_fighting_before": 0,
+          "native_fighting_after": 14,
+          "rating": "7/7 (maximum)",
+          "handedness_preserved": true,
+          "checking_preserved": true
+        },
+        {
+          "name": "Jim 1",
+          "roster_index": 8,
+          "offset": "0x2f6134",
+          "before_byte": "0x60",
+          "after_byte": "0x6e",
+          "native_fighting_before": 0,
+          "native_fighting_after": 14,
+          "rating": "7/7 (maximum)",
+          "handedness_preserved": true,
+          "checking_preserved": true
+        },
+        {
+          "name": "Jim 3",
+          "roster_index": 13,
+          "offset": "0x2f6186",
+          "before_byte": "0x60",
+          "after_byte": "0x6e",
+          "native_fighting_before": 0,
+          "native_fighting_after": 14,
+          "rating": "7/7 (maximum)",
+          "handedness_preserved": true,
+          "checking_preserved": true
+        }
+      ],
+      "changes": [
+        {
+          "address": "0x260000",
+          "size": 70
+        },
+        {
+          "address": "0x260200",
+          "size": 3038
+        },
+        {
+          "address": "0x263000",
+          "size": 106
+        },
+        {
+          "address": "0x17722",
+          "size": 6
+        },
+        {
+          "address": "0x7742",
+          "size": 8
+        },
+        {
+          "address": "0x795e",
+          "size": 8
+        },
+        {
+          "address": "0x2f6124",
+          "size": 1
+        },
+        {
+          "address": "0x2f6134",
+          "size": 1
+        },
+        {
+          "address": "0x2f6186",
+          "size": 1
+        },
+        {
+          "address": "0x18e",
+          "size": 2
+        }
+      ]
+    }
+  ],
+  "recording": {
+    "experiment": "five-pair team brawl test 1",
+    "rom_sha256": "b187185062af60c264d74e697d9d578e0a621be8a16e0bbb7140c1bbb00136eb",
+    "source": "Actual always-show review ROM; native menus/inputs; no RAM edits or animation compositing.",
+    "fps": 59.92274340431231,
+    "audio_sample_rate": 44100,
+    "frames": 1122,
+    "scene_start_frame": 19,
+    "restored_frame": 682,
+    "duration_seconds": 18.72410934909325,
+    "end_clock": 592,
+    "sha256": "69ceedebf92d2b521c9807ca11ea1c9eb1f7d9aaff31916b9a8d121e1582a1b9"
+  },
+  "verification": {
+    "Standard": {
+      "result": "PASS",
+      "test_count": 19,
+      "method": "Actual Genesis Plus GX native menus/inputs and native save states; no RAM edits.",
+      "probability": "Always-on review build; 50% probability code is retained unchanged, not newly sampled.",
+      "physical_phones": "Pending user review"
+    },
+    "Widescreen": {
+      "result": "PASS",
+      "test_count": 19,
+      "method": "Actual Genesis Plus GX native menus/inputs and native save states; no RAM edits.",
+      "probability": "Always-on review build; 50% probability code is retained unchanged, not newly sampled.",
+      "physical_phones": "Pending user review"
+    }
+  }
+}

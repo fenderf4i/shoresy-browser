@@ -41,5 +41,11 @@
   "roms/nhl26-shoresy-standard-1.02-prototype.bin": "e6ada89a5111b39ecb338c283fa83f5325b9596996504df820d570c88859b340",
   "roms/nhl26-shoresy-standard-release-1.0.bin": "14c0990fbe2afdf121a30e9198f7b8c9cf0b05eca3f6f562f642fc8e50514290",
   "roms/provenance.json": "189b6ae77eb37adeb790aa6795ecba9b77e7a5d9f5f0e728f5a8f289ac6b2fcc",
-  "styles.css": "c30931fa574e0117c1906c31232e15ed9580de8af81f8454f2ee06677cd833de"
+  "styles.css": "c30931fa574e0117c1906c31232e15ed9580de8af81f8454f2ee06677cd833de",
+  "brawl-test/app.js": "a41c4f949441f4c7a3b4de8e5436d8d092f0d9595dec27c9748ed0f0765ca0a8",
+  "brawl-test/index.html": "1eb32e6eaddab705fc6e3df255054d24b4220247675c46ea1249b056ebed38f3",
+  "brawl-test/preview-poster.png": "85b0d71951d6891df4b8c6ecf5d66135237b0a8664cbe4f298916ab2e6482dd1",
+  "brawl-test/provenance.json": "de2cecb790e7fab15866b0580f91692bd16c0b8405009955b68b01d48c0cf20e",
+  "brawl-test/team-brawl-preview.mp4": "69ceedebf92d2b521c9807ca11ea1c9eb1f7d9aaff31916b9a8d121e1582a1b9",
+  "roms/nhl26-shoresy-standard-1.02-brawl-test.bin": "b187185062af60c264d74e697d9d578e0a621be8a16e0bbb7140c1bbb00136eb"
 }
