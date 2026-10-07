@@ -1,16 +1,57 @@
 {
   "experimental": true,
-  "revision": 2,
-  "revision_note": "Fighters face each other based on actual X coordinates; verified on every choreographed frame in both roles and both ROM versions.",
-  "based_on": "Release 1.01",
+  "revision": 3,
   "chance_percent": 50,
-  "always_show_scene_query": "?always=1",
+  "scene_frames": 552,
+  "celebration_spa": "0x0EFC (native goal scorer arm pump)",
+  "fade_out_frames": 32,
+  "fade_in_frames": 32,
+  "jim_fights_once_per_period": "Research only; no forced-fight trigger installed",
+  "ram": "E000..F8FF (scene state, native palette snapshot, full actor snapshot, faceoff background map)",
   "builds": [
     {
       "version": "Standard",
       "filename": "NHL26-Shoresy Edition-Standard-1.02.md",
       "base_sha256": "a15036d64ad511eb7b40f486372cdead29f3dadfda867528f403d0c10c0e1140",
-      "sha256": "a6575270bb6101fc89688b7be174feeeab5aedc3d6bbc6bb2df09c4a9c47576c",
+      "sha256": "e6ada89a5111b39ecb338c283fa83f5325b9596996504df820d570c88859b340",
+      "jim_fighting": [
+        {
+          "name": "Jim 2",
+          "roster_index": 7,
+          "offset": "0x2f6124",
+          "before_byte": "0x60",
+          "after_byte": "0x6e",
+          "native_fighting_before": 0,
+          "native_fighting_after": 14,
+          "rating": "7/7 (maximum)",
+          "handedness_preserved": true,
+          "checking_preserved": true
+        },
+        {
+          "name": "Jim 1",
+          "roster_index": 8,
+          "offset": "0x2f6134",
+          "before_byte": "0x60",
+          "after_byte": "0x6e",
+          "native_fighting_before": 0,
+          "native_fighting_after": 14,
+          "rating": "7/7 (maximum)",
+          "handedness_preserved": true,
+          "checking_preserved": true
+        },
+        {
+          "name": "Jim 3",
+          "roster_index": 13,
+          "offset": "0x2f6186",
+          "before_byte": "0x60",
+          "after_byte": "0x6e",
+          "native_fighting_before": 0,
+          "native_fighting_after": 14,
+          "rating": "7/7 (maximum)",
+          "handedness_preserved": true,
+          "checking_preserved": true
+        }
+      ],
       "changes": [
         {
           "address": "0x260000",
@@ -18,7 +59,7 @@
         },
         {
           "address": "0x260200",
-          "size": 1650
+          "size": 1960
         },
         {
           "address": "0x261000",
@@ -35,6 +76,18 @@
         {
           "address": "0x795e",
           "size": 8
+        },
+        {
+          "address": "0x2f6124",
+          "size": 1
+        },
+        {
+          "address": "0x2f6134",
+          "size": 1
+        },
+        {
+          "address": "0x2f6186",
+          "size": 1
         },
         {
           "address": "0x18e",
@@ -46,7 +99,45 @@
       "version": "Widescreen",
       "filename": "NHL26-Shoresy Edition-Widescreen-1.02.md",
       "base_sha256": "07956f5038821b99480caeac350f9a25beafbd8d8102995f50d6353cfa0f8de5",
-      "sha256": "e1f91b53cefbabc66777552b2911a3d9f45b15465901e75928ec65cb483b2c41",
+      "sha256": "9034b5c00559ae2bf811c316480063a184e8afed5c5208d514ee50dba5584923",
+      "jim_fighting": [
+        {
+          "name": "Jim 2",
+          "roster_index": 7,
+          "offset": "0x2f6124",
+          "before_byte": "0x60",
+          "after_byte": "0x6e",
+          "native_fighting_before": 0,
+          "native_fighting_after": 14,
+          "rating": "7/7 (maximum)",
+          "handedness_preserved": true,
+          "checking_preserved": true
+        },
+        {
+          "name": "Jim 1",
+          "roster_index": 8,
+          "offset": "0x2f6134",
+          "before_byte": "0x60",
+          "after_byte": "0x6e",
+          "native_fighting_before": 0,
+          "native_fighting_after": 14,
+          "rating": "7/7 (maximum)",
+          "handedness_preserved": true,
+          "checking_preserved": true
+        },
+        {
+          "name": "Jim 3",
+          "roster_index": 13,
+          "offset": "0x2f6186",
+          "before_byte": "0x60",
+          "after_byte": "0x6e",
+          "native_fighting_before": 0,
+          "native_fighting_after": 14,
+          "rating": "7/7 (maximum)",
+          "handedness_preserved": true,
+          "checking_preserved": true
+        }
+      ],
       "changes": [
         {
           "address": "0x260000",
@@ -54,7 +145,7 @@
         },
         {
           "address": "0x260200",
-          "size": 1650
+          "size": 1960
         },
         {
           "address": "0x261000",
@@ -71,6 +162,18 @@
         {
           "address": "0x795e",
           "size": 8
+        },
+        {
+          "address": "0x2f6124",
+          "size": 1
+        },
+        {
+          "address": "0x2f6134",
+          "size": 1
+        },
+        {
+          "address": "0x2f6186",
+          "size": 1
         },
         {
           "address": "0x18e",
@@ -79,12 +182,53 @@
       ]
     }
   ],
+  "revision_note": "Bulldog wins, native arm-pump celebration, smooth fade to faceoff, all three Jims at maximum native fighting rating.",
+  "based_on": "Release 1.01",
+  "always_show_scene_query": "?always=1",
   "forced_builds": [
     {
       "version": "Standard",
       "filename": "NHL26-Shoresy Edition-Standard-1.02.md",
       "base_sha256": "a15036d64ad511eb7b40f486372cdead29f3dadfda867528f403d0c10c0e1140",
-      "sha256": "fb3a0aba89e084cfb52919ca00cb4084b2202a5ba609d5cd4dbd2d1b8a81b3fa",
+      "sha256": "c387443806d3c797b5fb82c3ef06c8e36244fcba198318710002afac1c13f72d",
+      "jim_fighting": [
+        {
+          "name": "Jim 2",
+          "roster_index": 7,
+          "offset": "0x2f6124",
+          "before_byte": "0x60",
+          "after_byte": "0x6e",
+          "native_fighting_before": 0,
+          "native_fighting_after": 14,
+          "rating": "7/7 (maximum)",
+          "handedness_preserved": true,
+          "checking_preserved": true
+        },
+        {
+          "name": "Jim 1",
+          "roster_index": 8,
+          "offset": "0x2f6134",
+          "before_byte": "0x60",
+          "after_byte": "0x6e",
+          "native_fighting_before": 0,
+          "native_fighting_after": 14,
+          "rating": "7/7 (maximum)",
+          "handedness_preserved": true,
+          "checking_preserved": true
+        },
+        {
+          "name": "Jim 3",
+          "roster_index": 13,
+          "offset": "0x2f6186",
+          "before_byte": "0x60",
+          "after_byte": "0x6e",
+          "native_fighting_before": 0,
+          "native_fighting_after": 14,
+          "rating": "7/7 (maximum)",
+          "handedness_preserved": true,
+          "checking_preserved": true
+        }
+      ],
       "changes": [
         {
           "address": "0x260000",
@@ -92,7 +236,7 @@
         },
         {
           "address": "0x260200",
-          "size": 1650
+          "size": 1960
         },
         {
           "address": "0x261000",
@@ -109,6 +253,18 @@
         {
           "address": "0x795e",
           "size": 8
+        },
+        {
+          "address": "0x2f6124",
+          "size": 1
+        },
+        {
+          "address": "0x2f6134",
+          "size": 1
+        },
+        {
+          "address": "0x2f6186",
+          "size": 1
         },
         {
           "address": "0x18e",
@@ -120,7 +276,45 @@
       "version": "Widescreen",
       "filename": "NHL26-Shoresy Edition-Widescreen-1.02.md",
       "base_sha256": "07956f5038821b99480caeac350f9a25beafbd8d8102995f50d6353cfa0f8de5",
-      "sha256": "2f8974eacd3f6a80778927eaf1efb863717c97012933c78fdd6952623e1b4d62",
+      "sha256": "e27b6104e70b176927c9c5682a9f60a420aa79afa9fbcce390d8b0cc0b648d6d",
+      "jim_fighting": [
+        {
+          "name": "Jim 2",
+          "roster_index": 7,
+          "offset": "0x2f6124",
+          "before_byte": "0x60",
+          "after_byte": "0x6e",
+          "native_fighting_before": 0,
+          "native_fighting_after": 14,
+          "rating": "7/7 (maximum)",
+          "handedness_preserved": true,
+          "checking_preserved": true
+        },
+        {
+          "name": "Jim 1",
+          "roster_index": 8,
+          "offset": "0x2f6134",
+          "before_byte": "0x60",
+          "after_byte": "0x6e",
+          "native_fighting_before": 0,
+          "native_fighting_after": 14,
+          "rating": "7/7 (maximum)",
+          "handedness_preserved": true,
+          "checking_preserved": true
+        },
+        {
+          "name": "Jim 3",
+          "roster_index": 13,
+          "offset": "0x2f6186",
+          "before_byte": "0x60",
+          "after_byte": "0x6e",
+          "native_fighting_before": 0,
+          "native_fighting_after": 14,
+          "rating": "7/7 (maximum)",
+          "handedness_preserved": true,
+          "checking_preserved": true
+        }
+      ],
       "changes": [
         {
           "address": "0x260000",
@@ -128,7 +322,7 @@
         },
         {
           "address": "0x260200",
-          "size": 1650
+          "size": 1960
         },
         {
           "address": "0x261000",
@@ -145,6 +339,18 @@
         {
           "address": "0x795e",
           "size": 8
+        },
+        {
+          "address": "0x2f6124",
+          "size": 1
+        },
+        {
+          "address": "0x2f6134",
+          "size": 1
+        },
+        {
+          "address": "0x2f6186",
+          "size": 1
         },
         {
           "address": "0x18e",
@@ -154,52 +360,154 @@
     }
   ],
   "recording": {
-    "rom_sha256": "a6575270bb6101fc89688b7be174feeeab5aedc3d6bbc6bb2df09c4a9c47576c",
+    "revision": 3,
+    "ending": "Bulldog knockdown win, native arm-pump celebration, fade-out and fade-in to restored faceoff",
+    "rom_sha256": "e6ada89a5111b39ecb338c283fa83f5325b9596996504df820d570c88859b340",
     "native_start_delay": 2,
     "native_draw": 45,
     "fps": 59.92274340431231,
     "audio_sample_rate": 44100,
-    "frames": 879,
+    "frames": 1042,
     "scene_start_frame": 19,
-    "restored_frame": 439,
-    "duration_seconds": 14.668887805573055,
+    "restored_frame": 602,
+    "duration_seconds": 17.3890569890866,
     "source": "Actual 50% prototype ROM, native menus and controls; no RAM edits",
     "end_clock": 590,
-    "sha256": "e4c4b79d598d380290c34be697ffe1c0ad62188ce156e63a6ff4170f8930a3ac"
+    "sha256": "2da5a842051935c45dac8abec2f58b3852a1d922090015f52f576cf7f8d99cd9"
   },
   "probability_checks": {
     "Standard": [
       {
         "role": "Home",
-        "games": 64,
-        "scene_count": 28,
-        "normal_count": 36,
+        "games": 128,
+        "scene_count": 56,
+        "normal_count": 72,
         "observed_percent": 43.75
       },
       {
         "role": "Away",
-        "games": 64,
-        "scene_count": 31,
-        "normal_count": 33,
-        "observed_percent": 48.4375
+        "games": 128,
+        "scene_count": 68,
+        "normal_count": 60,
+        "observed_percent": 53.125
       }
     ],
     "Widescreen": [
       {
         "role": "Home",
-        "games": 64,
-        "scene_count": 33,
-        "normal_count": 31,
-        "observed_percent": 51.5625
+        "games": 128,
+        "scene_count": 59,
+        "normal_count": 69,
+        "observed_percent": 46.09375
       },
       {
         "role": "Away",
-        "games": 64,
-        "scene_count": 28,
-        "normal_count": 36,
+        "games": 128,
+        "scene_count": 56,
+        "normal_count": 72,
         "observed_percent": 43.75
       }
     ]
   },
-  "physical_devices": "iPhone, Android and physical controllers require user review"
+  "runtime_checks": {
+    "Standard": {
+      "tests_passed": 23,
+      "checks": [
+        "Bulldog wins in both roles",
+        "native arm-pump frames",
+        "fade reaches black",
+        "CRAM restored",
+        "full game-state restoration",
+        "skip at five stages",
+        "save/load during fight and fade-in",
+        "both fight facings",
+        "NHL exclusion",
+        "normal play resumes"
+      ]
+    },
+    "Widescreen": {
+      "tests_passed": 23,
+      "checks": [
+        "Bulldog wins in both roles",
+        "native arm-pump frames",
+        "fade reaches black",
+        "CRAM restored",
+        "full game-state restoration",
+        "skip at five stages",
+        "save/load during fight and fade-in",
+        "both fight facings",
+        "NHL exclusion",
+        "normal play resumes"
+      ]
+    }
+  },
+  "jim_rating_checks": {
+    "Standard": {
+      "version": "Standard",
+      "result": "PASS",
+      "rom_sha256": "e6ada89a5111b39ecb338c283fa83f5325b9596996504df820d570c88859b340",
+      "maximum_rating": "7/7 (native fighting value 14)",
+      "roster_changes": [
+        "0x2f6124",
+        "0x2f6134",
+        "0x2f6186"
+      ],
+      "production_lineups_preserved": true,
+      "native_loader_verified": [
+        {
+          "jim": "Jim 1",
+          "actor": "0xb04a",
+          "native_fighting": 14,
+          "handedness": 1
+        },
+        {
+          "jim": "Jim 2",
+          "actor": "0xb0ca",
+          "native_fighting": 14,
+          "handedness": 1
+        },
+        {
+          "jim": "Jim 3",
+          "actor": "0xb1ca",
+          "native_fighting": 14,
+          "handedness": 1
+        }
+      ],
+      "method": "Separate lineup-only diagnostic ROM plus native menu input; no RAM edits. Diagnostic ROM is excluded from shipped outputs."
+    },
+    "Widescreen": {
+      "version": "Widescreen",
+      "result": "PASS",
+      "rom_sha256": "9034b5c00559ae2bf811c316480063a184e8afed5c5208d514ee50dba5584923",
+      "maximum_rating": "7/7 (native fighting value 14)",
+      "roster_changes": [
+        "0x2f6124",
+        "0x2f6134",
+        "0x2f6186"
+      ],
+      "production_lineups_preserved": true,
+      "native_loader_verified": [
+        {
+          "jim": "Jim 1",
+          "actor": "0xb04a",
+          "native_fighting": 14,
+          "handedness": 1
+        },
+        {
+          "jim": "Jim 2",
+          "actor": "0xb0ca",
+          "native_fighting": 14,
+          "handedness": 1
+        },
+        {
+          "jim": "Jim 3",
+          "actor": "0xb1ca",
+          "native_fighting": 14,
+          "handedness": 1
+        }
+      ],
+      "method": "Separate lineup-only diagnostic ROM plus native menu input; no RAM edits. Diagnostic ROM is excluded from shipped outputs."
+    }
+  },
+  "phone_hardware_validation": "Pending user review"
 }
