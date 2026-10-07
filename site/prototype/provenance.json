@@ -1,5 +1,7 @@
 {
   "experimental": true,
+  "revision": 2,
+  "revision_note": "Fighters face each other based on actual X coordinates; verified on every choreographed frame in both roles and both ROM versions.",
   "based_on": "Release 1.01",
   "chance_percent": 50,
   "always_show_scene_query": "?always=1",
@@ -8,7 +10,7 @@
       "version": "Standard",
       "filename": "NHL26-Shoresy Edition-Standard-1.02.md",
       "base_sha256": "a15036d64ad511eb7b40f486372cdead29f3dadfda867528f403d0c10c0e1140",
-      "sha256": "1a73f0fd6661ef68f409e0a4121fc9e47875f2f505188a5656b1e3513fb1ed6a",
+      "sha256": "a6575270bb6101fc89688b7be174feeeab5aedc3d6bbc6bb2df09c4a9c47576c",
       "changes": [
         {
           "address": "0x260000",
@@ -16,7 +18,7 @@
         },
         {
           "address": "0x260200",
-          "size": 1652
+          "size": 1650
         },
         {
           "address": "0x261000",
@@ -44,7 +46,7 @@
       "version": "Widescreen",
       "filename": "NHL26-Shoresy Edition-Widescreen-1.02.md",
       "base_sha256": "07956f5038821b99480caeac350f9a25beafbd8d8102995f50d6353cfa0f8de5",
-      "sha256": "d7ade8e16e374e9b698f0d189a93050cc13ff5ff9662c34491bffb69ee9a97b2",
+      "sha256": "e1f91b53cefbabc66777552b2911a3d9f45b15465901e75928ec65cb483b2c41",
       "changes": [
         {
           "address": "0x260000",
@@ -52,7 +54,7 @@
         },
         {
           "address": "0x260200",
-          "size": 1652
+          "size": 1650
         },
         {
           "address": "0x261000",
@@ -82,7 +84,7 @@
       "version": "Standard",
       "filename": "NHL26-Shoresy Edition-Standard-1.02.md",
       "base_sha256": "a15036d64ad511eb7b40f486372cdead29f3dadfda867528f403d0c10c0e1140",
-      "sha256": "b0b537b1d38d05db7b9ed061499db03f334ccb8087e30127fbae0aa9dea773d3",
+      "sha256": "fb3a0aba89e084cfb52919ca00cb4084b2202a5ba609d5cd4dbd2d1b8a81b3fa",
       "changes": [
         {
           "address": "0x260000",
@@ -90,7 +92,7 @@
         },
         {
           "address": "0x260200",
-          "size": 1652
+          "size": 1650
         },
         {
           "address": "0x261000",
@@ -118,7 +120,7 @@
       "version": "Widescreen",
       "filename": "NHL26-Shoresy Edition-Widescreen-1.02.md",
       "base_sha256": "07956f5038821b99480caeac350f9a25beafbd8d8102995f50d6353cfa0f8de5",
-      "sha256": "0a486c05d10a15a904e3fafd73009a0cb04bd941b67bb6370aeff6a67b093066",
+      "sha256": "2f8974eacd3f6a80778927eaf1efb863717c97012933c78fdd6952623e1b4d62",
       "changes": [
         {
           "address": "0x260000",
@@ -126,7 +128,7 @@
         },
         {
           "address": "0x260200",
-          "size": 1652
+          "size": 1650
         },
         {
           "address": "0x261000",
@@ -152,7 +154,7 @@
     }
   ],
   "recording": {
-    "rom_sha256": "1a73f0fd6661ef68f409e0a4121fc9e47875f2f505188a5656b1e3513fb1ed6a",
+    "rom_sha256": "a6575270bb6101fc89688b7be174feeeab5aedc3d6bbc6bb2df09c4a9c47576c",
     "native_start_delay": 2,
     "native_draw": 45,
     "fps": 59.92274340431231,
@@ -163,39 +165,39 @@
     "duration_seconds": 14.668887805573055,
     "source": "Actual 50% prototype ROM, native menus and controls; no RAM edits",
     "end_clock": 590,
-    "sha256": "d12d73f5794a0e16ddc6f4db767d88461c7c06191f0ce0d70e7b1a9e6b6a5150"
+    "sha256": "e4c4b79d598d380290c34be697ffe1c0ad62188ce156e63a6ff4170f8930a3ac"
   },
   "probability_checks": {
     "Standard": [
       {
         "role": "Home",
-        "games": 256,
-        "scene_count": 122,
-        "normal_count": 134,
-        "observed_percent": 47.65625
+        "games": 64,
+        "scene_count": 28,
+        "normal_count": 36,
+        "observed_percent": 43.75
       },
       {
         "role": "Away",
-        "games": 256,
-        "scene_count": 131,
-        "normal_count": 125,
-        "observed_percent": 51.171875
+        "games": 64,
+        "scene_count": 31,
+        "normal_count": 33,
+        "observed_percent": 48.4375
       }
     ],
     "Widescreen": [
       {
         "role": "Home",
-        "games": 256,
-        "scene_count": 123,
-        "normal_count": 133,
-        "observed_percent": 48.046875
+        "games": 64,
+        "scene_count": 33,
+        "normal_count": 31,
+        "observed_percent": 51.5625
       },
       {
         "role": "Away",
-        "games": 256,
-        "scene_count": 114,
-        "normal_count": 142,
-        "observed_percent": 44.53125
+        "games": 64,
+        "scene_count": 28,
+        "normal_count": 36,
+        "observed_percent": 43.75
       }
     ]
   },

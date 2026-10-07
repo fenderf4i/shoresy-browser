@@ -25,9 +25,9 @@
   window.EJS_player = "#game";
   window.EJS_core = "genesis_plus_gx";
   window.EJS_controlScheme = "segaMD";
-  window.EJS_gameUrl = always ? "../roms/nhl26-shoresy-standard-1.02-prototype-always.bin" : "../roms/nhl26-shoresy-standard-1.02-prototype.bin";
-  window.EJS_gameName = always ? "Shoresy Pregame Scrap Prototype Always" : "Shoresy Pregame Scrap Prototype 50%";
-  window.EJS_gameID = always ? 26102100 : 2610250;
+  window.EJS_gameUrl = always ? "../roms/nhl26-shoresy-standard-1.02-prototype-always.bin?v=facing2" : "../roms/nhl26-shoresy-standard-1.02-prototype.bin?v=facing2";
+  window.EJS_gameName = always ? "Shoresy Pregame Scrap Prototype Always r2" : "Shoresy Pregame Scrap Prototype 50% r2";
+  window.EJS_gameID = always ? 26102102 : 2610252;
   window.EJS_pathtodata = "../emulator/";
   window.EJS_paths = {
     "emulator.min.js": "../emulator/emulator.min.js?v=controllers1",

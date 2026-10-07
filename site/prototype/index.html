@@ -12,7 +12,7 @@
   <link rel="apple-touch-icon" href="../assets/icon-180.png">
   
   <link rel="stylesheet" href="../styles.css">
-  <script defer src="app.js?v=pregame-prototype1"></script>
+  <script defer src="app.js?v=pregame-prototype2"></script>
   <script defer src="../controller-check.js"></script>
   <style>
     .prototype-links { display:flex; flex-wrap:wrap; gap:12px 24px; margin:0 0 24px; font-size:14px; }
@@ -27,7 +27,7 @@
   <main class="shell">
     <header class="masthead">
       <a class="wordmark" href="./" aria-label="Shoresy home">SHORESY<span class="wordmark-dot">.</span></a>
-      <span class="edition">NHL26 <span>/</span> PROTOTYPE 1.02</span>
+      <span class="edition">NHL26 <span>/</span> PROTOTYPE 1.02 r2</span>
       <button class="help-button" id="help-button" type="button" aria-haspopup="dialog">How to play</button>
     </header>
     <section class="intro" aria-label="Welcome">
@@ -35,7 +35,7 @@
       <p class="intro-note"><span id="prototype-mode">50% chance per game</span><br>Bulldogs matchups only.</p>
     </section>
     <nav class="prototype-links" aria-label="Prototype options">
-      <a href="./">Play 50% version</a><a href="?always=1">Always show scene</a><a href="#preview">Watch preview</a><a href="../">Released game</a>
+      <a href="?v=facing2">Play 50% version</a><a href="?always=1&amp;v=facing2">Always show scene</a><a href="#preview">Watch preview</a><a href="../">Released game</a>
     </nav>
     <section class="arena" id="arena" aria-label="Shoresy Genesis game">
       <div id="game"></div>
@@ -57,10 +57,10 @@
     </section>
     <section id="preview" class="prototype-preview" aria-label="Video preview">
       <h2>The scene in action.</h2><p>Recorded from the 50% ROM with game audio, through the opening faceoff and into play.</p>
-      <video controls playsinline preload="metadata" poster="preview-poster.png" src="pregame-scrap-preview.mp4">Your browser can <a href="pregame-scrap-preview.mp4">open the video here</a>.</video>
+      <video controls playsinline preload="metadata" poster="preview-poster.png?v=facing2" src="pregame-scrap-preview.mp4?v=facing2">Your browser can <a href="pregame-scrap-preview.mp4?v=facing2">open the video here</a>.</video>
       <p>Experimental build for review. The released game remains available above. Use saves made with this prototype.</p>
     </section>
-    <footer><span>NHL26 · SHORESY EDITION · PROTOTYPE 1.02</span><a href="../credits.html">Credits &amp; software</a></footer>
+    <footer><span>NHL26 · SHORESY EDITION · PROTOTYPE 1.02 r2</span><a href="../credits.html">Credits &amp; software</a></footer>
   </main>
   <dialog id="help-dialog" aria-labelledby="help-title">
     <div class="dialog-heading"><h2 id="help-title">A little pregame briefing.</h2><button type="button" id="close-help" aria-label="Close instructions">✕</button></div>

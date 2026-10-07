@@ -1,5 +1,7 @@
 # Pregame scrap prototype 1.02
 
+Revision 2 fixes the fighters facing away from each other. Their facing direction and sprite mirroring now follow their actual left/right positions. Regression checks catch the old error and verify both fighters on every choreographed frame for home, away and same-team matchups in both ROM versions. The preview video has been replaced with a recording of this corrected build.
+
 The experiment lives at `/prototype/`. The normal landing page and Release 1.01 ROM are unchanged.
 
 - [50% chance per Bulldogs game](https://fenderf4i.github.io/shoresy-browser/prototype/)
@@ -10,7 +12,7 @@ One Bulldog approaches an opponent before the first faceoff, and the pair exchan
 
 Standard and Widescreen ROMs were verified in actual Genesis Plus GX using native controls and real save states, without test RAM edits. Each version passed 17 runtime scenarios covering home, away, same-team, early/middle/late skips, save/load, normal openings and return to active play. State invariants were checked throughout each scene and on cleanup, including all sixteen actors, the native faceoff background map and the gameplay RNG seed.
 
-Probability testing covered 1,024 native game starts with varied menu timing: 490 scenes and 534 normal openings (47.85%). The threshold is one native draw from 0–99, triggering below 50. The always-show build changes only that threshold and the ROM checksum. It has a separate save identity from the 50% build and the normal release.
+Revision 2 was checked across 256 native game starts with varied menu timing: 120 scenes and 136 normal openings (46.88%). The coin-flip and initialization code are byte-identical to revision 1, which separately tested 1,024 starts (490 scenes). The threshold remains one native draw from 0–99, triggering below 50. The always-show build changes only that threshold and the ROM checksum. Revision 2 uses fresh ROM cache URLs and separate save identities so the previous prototype does not load accidentally.
 
 The 14.67-second preview records the actual 50% Standard ROM, including the approach, fight, restored faceoff and normal play, with stereo game audio. It is H.264/AAC MP4 for phone playback.
 
