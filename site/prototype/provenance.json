@@ -1,0 +1,203 @@
+{
+  "experimental": true,
+  "based_on": "Release 1.01",
+  "chance_percent": 50,
+  "always_show_scene_query": "?always=1",
+  "builds": [
+    {
+      "version": "Standard",
+      "filename": "NHL26-Shoresy Edition-Standard-1.02.md",
+      "base_sha256": "a15036d64ad511eb7b40f486372cdead29f3dadfda867528f403d0c10c0e1140",
+      "sha256": "1a73f0fd6661ef68f409e0a4121fc9e47875f2f505188a5656b1e3513fb1ed6a",
+      "changes": [
+        {
+          "address": "0x260000",
+          "size": 70
+        },
+        {
+          "address": "0x260200",
+          "size": 1652
+        },
+        {
+          "address": "0x261000",
+          "size": 106
+        },
+        {
+          "address": "0x17722",
+          "size": 6
+        },
+        {
+          "address": "0x7742",
+          "size": 8
+        },
+        {
+          "address": "0x795e",
+          "size": 8
+        },
+        {
+          "address": "0x18e",
+          "size": 2
+        }
+      ]
+    },
+    {
+      "version": "Widescreen",
+      "filename": "NHL26-Shoresy Edition-Widescreen-1.02.md",
+      "base_sha256": "07956f5038821b99480caeac350f9a25beafbd8d8102995f50d6353cfa0f8de5",
+      "sha256": "d7ade8e16e374e9b698f0d189a93050cc13ff5ff9662c34491bffb69ee9a97b2",
+      "changes": [
+        {
+          "address": "0x260000",
+          "size": 70
+        },
+        {
+          "address": "0x260200",
+          "size": 1652
+        },
+        {
+          "address": "0x261000",
+          "size": 106
+        },
+        {
+          "address": "0x17722",
+          "size": 6
+        },
+        {
+          "address": "0x7742",
+          "size": 8
+        },
+        {
+          "address": "0x795e",
+          "size": 8
+        },
+        {
+          "address": "0x18e",
+          "size": 2
+        }
+      ]
+    }
+  ],
+  "forced_builds": [
+    {
+      "version": "Standard",
+      "filename": "NHL26-Shoresy Edition-Standard-1.02.md",
+      "base_sha256": "a15036d64ad511eb7b40f486372cdead29f3dadfda867528f403d0c10c0e1140",
+      "sha256": "b0b537b1d38d05db7b9ed061499db03f334ccb8087e30127fbae0aa9dea773d3",
+      "changes": [
+        {
+          "address": "0x260000",
+          "size": 70
+        },
+        {
+          "address": "0x260200",
+          "size": 1652
+        },
+        {
+          "address": "0x261000",
+          "size": 106
+        },
+        {
+          "address": "0x17722",
+          "size": 6
+        },
+        {
+          "address": "0x7742",
+          "size": 8
+        },
+        {
+          "address": "0x795e",
+          "size": 8
+        },
+        {
+          "address": "0x18e",
+          "size": 2
+        }
+      ]
+    },
+    {
+      "version": "Widescreen",
+      "filename": "NHL26-Shoresy Edition-Widescreen-1.02.md",
+      "base_sha256": "07956f5038821b99480caeac350f9a25beafbd8d8102995f50d6353cfa0f8de5",
+      "sha256": "0a486c05d10a15a904e3fafd73009a0cb04bd941b67bb6370aeff6a67b093066",
+      "changes": [
+        {
+          "address": "0x260000",
+          "size": 70
+        },
+        {
+          "address": "0x260200",
+          "size": 1652
+        },
+        {
+          "address": "0x261000",
+          "size": 106
+        },
+        {
+          "address": "0x17722",
+          "size": 6
+        },
+        {
+          "address": "0x7742",
+          "size": 8
+        },
+        {
+          "address": "0x795e",
+          "size": 8
+        },
+        {
+          "address": "0x18e",
+          "size": 2
+        }
+      ]
+    }
+  ],
+  "recording": {
+    "rom_sha256": "1a73f0fd6661ef68f409e0a4121fc9e47875f2f505188a5656b1e3513fb1ed6a",
+    "native_start_delay": 2,
+    "native_draw": 45,
+    "fps": 59.92274340431231,
+    "audio_sample_rate": 44100,
+    "frames": 879,
+    "scene_start_frame": 19,
+    "restored_frame": 439,
+    "duration_seconds": 14.668887805573055,
+    "source": "Actual 50% prototype ROM, native menus and controls; no RAM edits",
+    "end_clock": 590,
+    "sha256": "d12d73f5794a0e16ddc6f4db767d88461c7c06191f0ce0d70e7b1a9e6b6a5150"
+  },
+  "probability_checks": {
+    "Standard": [
+      {
+        "role": "Home",
+        "games": 256,
+        "scene_count": 122,
+        "normal_count": 134,
+        "observed_percent": 47.65625
+      },
+      {
+        "role": "Away",
+        "games": 256,
+        "scene_count": 131,
+        "normal_count": 125,
+        "observed_percent": 51.171875
+      }
+    ],
+    "Widescreen": [
+      {
+        "role": "Home",
+        "games": 256,
+        "scene_count": 123,
+        "normal_count": 133,
+        "observed_percent": 48.046875
+      },
+      {
+        "role": "Away",
+        "games": 256,
+        "scene_count": 114,
+        "normal_count": 142,
+        "observed_percent": 44.53125
+      }
+    ]
+  },
+  "physical_devices": "iPhone, Android and physical controllers require user review"
+}
