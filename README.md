@@ -1,6 +1,6 @@
 # NHL26 Shoresy Browser Player
 
-An automatic-loading browser player for **NHL26 Shoresy Edition — Standard 1.02** Genesis ROM. Designed for portrait play in iPhone Safari and Android Chrome, with landscape support, a home-screen manifest, touch D-pad / A / B / C / START, keyboard and controller mapping, pause/restart, and save-state download/import.
+An automatic-loading browser player for **NHL26 Shoresy Edition — Standard 1.03** Genesis ROM. Designed for portrait play in iPhone Safari and Android Chrome, with landscape support, a home-screen manifest, touch D-pad / A / B / C / START, keyboard and controller mapping, pause/restart, and save-state download/import.
 
 ## Play
 
@@ -14,23 +14,23 @@ Keyboard: arrow keys, A/S/D for Genesis A/B/C, Enter for START. Hardware control
 
 ## Source integrity
 
-Release **1.02** includes the approved five-skater pregame brawl in 50% of eligible
-Bulldogs games, with staggered fights and celebrations and every Bulldog winning.
-Goalies stay in their creases; START skips. The original faceoff and gameplay state
-are restored before play. Jim 1, Jim 2 and Jim 3 have maximum native fighting ratings.
-All eight clean-language pregame conversations from Release 1.01 remain, including
-both originals. The proposed once-per-period fight trigger remains research only.
+Release **1.03** adds four approved Jory Jordan / Shoresy pregame interviews, all
+opening with “Jory Jordan, Sudbury Kids Sports Report.” Their portraits are separate
+from Shoresy's optimized hockey photo used for the fight opener. All eight existing
+clean conversations remain, including both originals. Bulldogs games randomly
+select from twelve conversations; NHL-only games select from the original eight.
 
-The browser serves the exact verified standalone `NHL26-Shoresy Edition-Standard-1.02.md`
-as `.bin`. No runtime ROM patches are applied.
+The hockey portrait says “Let's give 'em the lumber, boys!” for about three seconds
+before the unchanged 50% five-skater brawl. START advances the line or skips the fight.
+Every Bulldog wins and celebrates; the original faceoff and game state are restored.
+The Jims retain maximum native fighting ratings. Once-per-period fights remain research.
 
-- Size: 3,145,728 bytes
-- SHA-256: `edce0adfec05248d3c87da663f9230dc7f666a5d5093ac3427e11550c923d5a7`
-- Version: Standard 1.02 (33 teams; Sudbury Home, Winnipeg Away)
-- Header base-game credit: JKline3 & von Ozbourne
+The browser serves exact standalone `NHL26-Shoresy Edition-Standard-1.03.md` bytes
+as `.bin`, without runtime patches. Size: 3,145,728 bytes. SHA-256:
+`e4e7be8a55788f73577318733ba1adbc39a44737d3cc128d8248400d791b01c7`. A new ROM URL and game ID distinguish 1.03 from earlier saves.
 
-Prior releases and review prototypes remain preserved. Release 1.02 uses a new ROM
-URL and game ID. See `site/roms/provenance.json` and the [actual release video](site/brawl-preview/index.html).
+See `site/roms/provenance.json` and the [actual release videos](site/brawl-preview/index.html).
+All prior releases remain preserved.
 
 ## Emulator
 

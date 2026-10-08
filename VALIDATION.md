@@ -1,3 +1,15 @@
+# Release1.03 — Jory interviews and lumber opener
+
+- 88 full native conversations across both formats and all matchup roles passed: complete text/sequence, correct portraits and exact RAM/CRAM palettes, timing, fixed selection, save/load and A/C/Start/gameplay.
+- 1536 actual production starts produced 726 fights (47.27%). Every start matched its 50% native draw. All twelve conversation choices were exercised per eligible role/version; NHL-only games excluded Jory and the fight.
+- All 18 full fight/no-fight checks passed, including advance/skip, save/load, five wins/celebrations, unchanged game state, graphics/actor/map restoration and resumed play.
+- Both private rebuilds and clean-source IPS roundtrips are byte-identical. Every-byte scope audit preserves all eight old scripts, native brawl/draw code, roster, ratings and other artwork. Approved popup matches prototype 03 exactly.
+- Actual1.03 native interview and fight videos recorded with game audio. Physical devices not newly tested.
+
+Full evidence: private `outputs/Bulldogs_NHL26_Release_1_03`. Hosted integrity: `site/roms/provenance.json`.
+
+---
+
 # Release 1.02 — five-skater pregame brawl
 
 - 1536 actual production game starts across both versions and three Bulldogs matchup roles: 726 brawls (47.27%), every outcome matched its native 50% draw.

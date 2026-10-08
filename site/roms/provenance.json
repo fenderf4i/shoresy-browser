@@ -1,26 +1,29 @@
 {
-  "version": "NHL26 Shoresy Edition - Standard 1.02",
-  "suppliedFilename": "NHL26-Shoresy Edition-Standard-1.02.md",
-  "publishedFilename": "nhl26-shoresy-standard-1.02.bin",
+  "version": "NHL26 Shoresy Edition - Standard 1.03",
+  "suppliedFilename": "NHL26-Shoresy Edition-Standard-1.03.md",
+  "publishedFilename": "nhl26-shoresy-standard-1.03.bin",
   "bytes": 3145728,
-  "sha256": "edce0adfec05248d3c87da663f9230dc7f666a5d5093ac3427e11550c923d5a7",
+  "sha256": "e4e7be8a55788f73577318733ba1adbc39a44737d3cc128d8248400d791b01c7",
   "defaultHomeTeam": "Sudbury",
   "defaultAwayTeam": "Winnipeg",
-  "modifications": "Release 1.02: approved five-pair pregame brawl at 50%, staggered native wins/celebrations and restoration; maximum Jim fighting; all eight clean conversations retained. Browser ROM is identical to standalone release.",
+  "modifications": "Release1.03 adds four approved Jory Jordan/Shoresy interviews and their separate portraits; optimized hockey-photo lumber opener precedes the unchanged 50% five-pair brawl. All eight existing clean conversations, including originals, are retained. Browser ROM matches standalone release.",
   "headerDomesticTitle": "NHL Hockey '26 -'94 Edition",
   "headerOverseasTitle": "NHL 2026 - 94 Edition by JKline3 & von Ozbourne",
   "menuPortraitOrder": "Michaels, Goody, Fish, Sommerfeld, JJ Frankie JJ, Delaney, Jim 2, Jim 1, Shoresy, Dolo, Schmidt, Hitch, Jim 3, Brett Skrupski",
-  "baseReleaseSha256": "a15036d64ad511eb7b40f486372cdead29f3dadfda867528f403d0c10c0e1140",
+  "baseReleaseSha256": "edce0adfec05248d3c87da663f9230dc7f666a5d5093ac3427e11550c923d5a7",
   "announcerConversations": {
     "pairs": [
       "Anik Archambault / Jay Onrait",
-      "Remy Nadeau / Benny Brodeur"
+      "Remy Nadeau / Benny Brodeur",
+      "Jory Jordan / Shoresy"
     ],
     "perPair": 4,
-    "total": 8,
+    "total": 12,
     "includesOriginals": true,
     "swearing": false,
-    "selection": "Native ROM RNG once per pregame; repeats allowed; save states retain their selected conversation."
+    "selection": "Native ROM RNG once per pregame: 12 equal choices in Bulldogs matchups; original eight in NHL-only games. Repeats allowed and save states retain the choice.",
+    "joryIntroduction": "Jory Jordan, Sudbury Kids Sports Report.",
+    "joryDraft4": "The farewell tour"
   },
   "pregameBrawl": {
     "chancePercent": 50,
@@ -28,59 +31,22 @@
     "goalies": "Stay in their creases",
     "everyBulldogWins": true,
     "skip": "START",
-    "oncePerPeriodJimTrigger": false
+    "oncePerPeriodJimTrigger": false,
+    "opener": {
+      "quote": "Let's give 'em the lumber, boys!",
+      "portrait": "Optimized existing hockey photo; helmet and Bulldogs jersey",
+      "holdFrames": 180,
+      "advance": "START"
+    }
   },
   "verification": {
+    "status": "PASS",
     "actualNativeStarts": 1536,
     "brawlsObserved": 726,
-    "runtimeScenarios": 52,
-    "probability": {
-      "Standard": [
-        {
-          "role": "Home",
-          "games": 256,
-          "scene_count": 122,
-          "observed_percent": 47.65625,
-          "all_eight_conversations_selected": true
-        },
-        {
-          "role": "Away",
-          "games": 256,
-          "scene_count": 131,
-          "observed_percent": 51.171875,
-          "all_eight_conversations_selected": true
-        },
-        {
-          "role": "Same",
-          "games": 256,
-          "scene_count": 121,
-          "observed_percent": 47.265625,
-          "all_eight_conversations_selected": true
-        }
-      ],
-      "Widescreen": [
-        {
-          "role": "Home",
-          "games": 256,
-          "scene_count": 123,
-          "observed_percent": 48.046875,
-          "all_eight_conversations_selected": true
-        },
-        {
-          "role": "Away",
-          "games": 256,
-          "scene_count": 114,
-          "observed_percent": 44.53125,
-          "all_eight_conversations_selected": true
-        },
-        {
-          "role": "Same",
-          "games": 256,
-          "scene_count": 115,
-          "observed_percent": 44.921875,
-          "all_eight_conversations_selected": true
-        }
-      ]
-    }
+    "observedPercent": 47.265625,
+    "fullConversationScenarios": 88,
+    "fightAndNoFightScenarios": 18,
+    "method": "Actual Genesis Plus GX; native menus, inputs and save/load; no RAM writes.",
+    "physicalDevices": "Not newly tested"
   }
 }
