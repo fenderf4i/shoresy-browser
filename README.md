@@ -1,6 +1,6 @@
 # NHL26 Shoresy Browser Player
 
-An automatic-loading browser player for **NHL26 Shoresy Edition — Standard 1.03** Genesis ROM. Designed for portrait play in iPhone Safari and Android Chrome, with landscape support, a home-screen manifest, touch D-pad / A / B / C / START, keyboard and controller mapping, pause/restart, and save-state download/import.
+An automatic-loading browser player for **NHL26 Shoresy Edition — Standard 1.04** Genesis ROM. Designed for portrait play in iPhone Safari and Android Chrome, with landscape support, a home-screen manifest, touch D-pad / A / B / C / START, keyboard and controller mapping, pause/restart, and save-state download/import.
 
 ## Play
 
@@ -14,7 +14,7 @@ Keyboard: arrow keys, A/S/D for Genesis A/B/C, Enter for START. Hardware control
 
 ## Source integrity
 
-Release **1.03** adds four approved Jory Jordan / Shoresy pregame interviews, all
+Release **1.04** excludes Shoresy from hot/cold player mentions during his interviews. It retains four approved Jory Jordan / Shoresy pregame interviews, all
 opening with “Jory Jordan, Sudbury Kids Sports Report.” Their portraits are separate
 from Shoresy's optimized hockey photo used for the fight opener. All eight existing
 clean conversations remain, including both originals. Bulldogs games randomly
@@ -25,9 +25,9 @@ before the unchanged 50% five-skater brawl. START advances the line or skips the
 Every Bulldog wins and celebrates; the original faceoff and game state are restored.
 The Jims retain maximum native fighting ratings. Once-per-period fights remain research.
 
-The browser serves exact standalone `NHL26-Shoresy Edition-Standard-1.03.md` bytes
+The browser serves exact standalone `NHL26-Shoresy Edition-Standard-1.04.md` bytes
 as `.bin`, without runtime patches. Size: 3,145,728 bytes. SHA-256:
-`e4e7be8a55788f73577318733ba1adbc39a44737d3cc128d8248400d791b01c7`. A new ROM URL and game ID distinguish 1.03 from earlier saves.
+`5b7bbbe7d38f683b7ae0559950363bbb4fb06b68d65b8c572374989f45d8aece`. A new ROM URL and game ID distinguish 1.04 from earlier saves.
 
 See `site/roms/provenance.json` and the [actual release videos](site/brawl-preview/index.html).
 All prior releases remain preserved.

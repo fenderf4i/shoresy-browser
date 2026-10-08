@@ -1,16 +1,16 @@
 {
-  "version": "NHL26 Shoresy Edition - Standard 1.03",
-  "suppliedFilename": "NHL26-Shoresy Edition-Standard-1.03.md",
-  "publishedFilename": "nhl26-shoresy-standard-1.03.bin",
+  "version": "NHL26 Shoresy Edition - Standard 1.04",
+  "suppliedFilename": "NHL26-Shoresy Edition-Standard-1.04.md",
+  "publishedFilename": "nhl26-shoresy-standard-1.04.bin",
   "bytes": 3145728,
-  "sha256": "e4e7be8a55788f73577318733ba1adbc39a44737d3cc128d8248400d791b01c7",
+  "sha256": "5b7bbbe7d38f683b7ae0559950363bbb4fb06b68d65b8c572374989f45d8aece",
   "defaultHomeTeam": "Sudbury",
   "defaultAwayTeam": "Winnipeg",
-  "modifications": "Release1.03 adds four approved Jory Jordan/Shoresy interviews and their separate portraits; optimized hockey-photo lumber opener precedes the unchanged 50% five-pair brawl. All eight existing clean conversations, including originals, are retained. Browser ROM matches standalone release.",
+  "modifications": "Release 1.04 excludes Shoresy from featured-player mentions during Jory interviews. All twelve approved conversations, portraits and 50% team brawl with hockey-photo opener retained.",
   "headerDomesticTitle": "NHL Hockey '26 -'94 Edition",
   "headerOverseasTitle": "NHL 2026 - 94 Edition by JKline3 & von Ozbourne",
   "menuPortraitOrder": "Michaels, Goody, Fish, Sommerfeld, JJ Frankie JJ, Delaney, Jim 2, Jim 1, Shoresy, Dolo, Schmidt, Hitch, Jim 3, Brett Skrupski",
-  "baseReleaseSha256": "edce0adfec05248d3c87da663f9230dc7f666a5d5093ac3427e11550c923d5a7",
+  "baseReleaseSha256": "e4e7be8a55788f73577318733ba1adbc39a44737d3cc128d8248400d791b01c7",
   "announcerConversations": {
     "pairs": [
       "Anik Archambault / Jay Onrait",
@@ -23,7 +23,8 @@
     "swearing": false,
     "selection": "Native ROM RNG once per pregame: 12 equal choices in Bulldogs matchups; original eight in NHL-only games. Repeats allowed and save states retain the choice.",
     "joryIntroduction": "Jory Jordan, Sudbury Kids Sports Report.",
-    "joryDraft4": "The farewell tour"
+    "joryDraft4": "The farewell tour",
+    "interviewGuestExcludedFromPlayerMentions": "Shoresy; Jory pair only"
   },
   "pregameBrawl": {
     "chancePercent": 50,
@@ -41,12 +42,13 @@
   },
   "verification": {
     "status": "PASS",
-    "actualNativeStarts": 1536,
-    "brawlsObserved": 726,
-    "observedPercent": 47.265625,
-    "fullConversationScenarios": 88,
+    "featuredEdgeCases": 192,
+    "fullConversationScenarios": 40,
+    "actualNativeStarts": 768,
+    "brawlsObserved": 355,
+    "observedPercent": 46.223958333333336,
     "fightAndNoFightScenarios": 18,
-    "method": "Actual Genesis Plus GX; native menus, inputs and save/load; no RAM writes.",
-    "physicalDevices": "Not newly tested"
+    "physicalDevices": "Not newly tested",
+    "method": "Separate native CPU edge harness plus unmodified production ROM playback and game-start tests. See reports for exact methods."
   }
 }

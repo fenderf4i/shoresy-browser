@@ -1,3 +1,14 @@
+# Release 1.04 — interview guest exclusion
+
+- 192 native CPU edge cases across both formats passed, including forced guest selections, home/away hot/cold, other-pair/team guards and preserved native scratch/cursors/registers. These use an isolated test-only trampoline.
+- 40 complete unmodified production conversations passed: all Jory scripts in each Bulldogs role plus existing-pair and NHL-only controls; name filtering, native text, portraits, timing, save/load and gameplay checks passed.
+- 768 actual game starts produced 355 fights (46.22%); every result matched the native 50% rule. All 18 full popup/fight checks passed.
+- Exact private rebuilds and clean-source IPS roundtrips passed; all dialogue, art, roster, ratings and brawl/RNG bytes are unchanged from 1.03. Actual 1.04 videos recorded with native game audio. Physical devices not newly tested.
+
+Full evidence: private outputs/Bulldogs_NHL26_Release_1_04.
+
+---
+
 # Release1.03 — Jory interviews and lumber opener
 
 - 88 full native conversations across both formats and all matchup roles passed: complete text/sequence, correct portraits and exact RAM/CRAM palettes, timing, fixed selection, save/load and A/C/Start/gameplay.
