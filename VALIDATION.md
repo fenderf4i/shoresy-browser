@@ -1,3 +1,11 @@
+# Browser menu update — 2026-10-07
+
+- Source and production-bundle menu regressions pass: bottom movement, clicks, touch starts and legacy mouse-trigger settings keep the menu closed; explicit toggle opens it. Old hidden-button settings cannot hide the only menu access. Existing controller-routing checks pass.
+- Browser preview checked at desktop size and 390×844 portrait: bottom taps keep the menu closed, the top-right button opens it, touch START responds, touch controls remain visible, and Pause/Play work through the menu. Physical phones were not newly tested.
+- Release 1.04 ROM bytes and game ID are unchanged. Emulator/script cache versions are updated; local asset verification passes.
+
+---
+
 # Release 1.04 — interview guest exclusion
 
 - 192 native CPU edge cases across both formats passed, including forced guest selections, home/away hot/cold, other-pair/team guards and preserved native scratch/cursors/registers. These use an isolated test-only trampoline.

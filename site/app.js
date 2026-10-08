@@ -28,8 +28,8 @@
   window.EJS_gameID = 26104;
   window.EJS_pathtodata = "emulator/";
   window.EJS_paths = {
-    "emulator.min.js": "emulator/emulator.min.js?v=controllers1",
-    "emulator.js": "emulator/src/emulator.js?v=controllers1"
+    "emulator.min.js": "emulator/emulator.min.js?v=menu-button1",
+    "emulator.js": "emulator/src/emulator.js?v=menu-button1"
   };
   window.EJS_threads = false;
   window.EJS_DEBUG_XX = new URLSearchParams(location.search).has("debug");

@@ -22,6 +22,8 @@ jobs:
         run: node tools/verify.cjs
       - name: Verify controller detection and routing
         run: node tools/test-gamepads.cjs
+      - name: Verify menu opens only from its button
+        run: node tools/test-menu.cjs
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:

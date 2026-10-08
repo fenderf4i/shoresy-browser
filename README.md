@@ -8,7 +8,7 @@ https://fenderf4i.github.io/shoresy-browser/
 
 Tap **Play**, then press **START**. An internet connection is needed to load the site. This version does not promise offline play.
 
-Open the emulator menu for pause, restart, save state, or load state. A save state is downloaded to the device; load the same file to resume. On iPhone, look in Files / Downloads. The save defaults to a downloaded file rather than promising that browser storage will survive eviction or private browsing. Accounts, cloud saves, and network multiplayer are outside this version.
+Use the top-right menu button for pause, restart, save state, or load state. Bottom taps and mouse movement do not reveal the menu. A save state is downloaded to the device; load the same file to resume. On iPhone, look in Files / Downloads. The save defaults to a downloaded file rather than promising that browser storage will survive eviction or private browsing. Accounts, cloud saves, and network multiplayer are outside this version.
 
 Keyboard: arrow keys, A/S/D for Genesis A/B/C, Enter for START. Hardware controllers can be configured in the emulator control menu. Connect the controller, start the player, and press a controller button with the page active. Under **How to play → Check controller**, a local browser check shows whether the browser sees it and whether its buttons respond.
 
