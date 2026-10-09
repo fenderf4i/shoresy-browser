@@ -1,3 +1,7 @@
+# Release 1.06 — Winter evening arena
+
+Both Standard and Widescreen passed eight total native matchups, ten-minute menu idles, exact menu save/load, gameplay clocks and pause/resume. The arena-only byte audit, unchanged UI/team palettes and overlay map, identical header backplate pixels, reset gameplay palettes and unchanged BROdude logo tiles passed. Independent builds and clean-source IPS roundtrips match. Physical devices were not newly tested.
+
 # Release 1.05 — BROdude broadcast logo
 
 - Standard/Widescreen native home, away, both-Bulldogs and NHL-only starts passed (8 matchups, 40 captured stages). Live logo tiles, unchanged HUD maps, period/timer/frame glyphs and palettes checked. Running clocks, pause/resume and exact save-state roundtrips passed.

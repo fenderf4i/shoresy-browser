@@ -1,16 +1,16 @@
 {
-  "version": "NHL26 Shoresy Edition - Standard 1.05",
-  "suppliedFilename": "NHL26-Shoresy Edition-Standard-1.05.md",
-  "publishedFilename": "nhl26-shoresy-standard-1.05.bin",
+  "version": "NHL26 Shoresy Edition - Standard 1.06",
+  "suppliedFilename": "NHL26-Shoresy Edition-Standard-1.06.md",
+  "publishedFilename": "nhl26-shoresy-standard-1.06.bin",
   "bytes": 3145728,
-  "sha256": "8fffb16b6c88cc7f906644529da06e1d1b75a07675bd8d483ebba63f0dd7d040",
+  "sha256": "c60428b2fe28267aba3af906e9e41dee6acca133876532fe33a271cac4026a30",
   "defaultHomeTeam": "Sudbury",
   "defaultAwayTeam": "Winnipeg",
-  "modifications": "Release 1.05 replaces only the NHL Network logo with the approved faded-gold BROdude wordmark; period, timer and score preserved. All Release 1.04 conversations, guest exclusion and brawl behavior retained.",
+  "modifications": "Release 1.06 replaces the team-selection background with a winter-evening Sudbury arena and Bulldogs facade crest. Menu header backplates, UI/team palette banks, all 1.05 game code, conversations, roster, brawl probability and HUD artwork are retained.",
   "headerDomesticTitle": "NHL Hockey '26 -'94 Edition",
   "headerOverseasTitle": "NHL 2026 - 94 Edition by JKline3 & von Ozbourne",
   "menuPortraitOrder": "Michaels, Goody, Fish, Sommerfeld, JJ Frankie JJ, Delaney, Jim 2, Jim 1, Shoresy, Dolo, Schmidt, Hitch, Jim 3, Brett Skrupski",
-  "baseReleaseSha256": "5b7bbbe7d38f683b7ae0559950363bbb4fb06b68d65b8c572374989f45d8aece",
+  "baseReleaseSha256": "8fffb16b6c88cc7f906644529da06e1d1b75a07675bd8d483ebba63f0dd7d040",
   "announcerConversations": {
     "pairs": [
       "Anik Archambault / Jay Onrait",
@@ -43,12 +43,11 @@
   "verification": {
     "status": "PASS",
     "nativeMatchups": 8,
-    "nativeStages": 40,
+    "menuIdleMinutesPerScenario": 10,
     "reproducibleBuilds": true,
     "cleanSourceIPSRoundtrips": true,
-    "periodTimerScorePreserved": true,
     "physicalDevices": "Not newly tested",
-    "method": "Native cold boots/menu inputs, live tile-map/palette checks, running-clock/pause/save-load checks and bounded ROM binary audit. No RAM writes."
+    "method": "Cold boot, native menu/controller input, no RAM writes. Exact background tile/palette/map encoding plus unchanged non-background ROM bytes separately audited."
   },
   "broadcastLogo": {
     "text": "BROdude",
@@ -58,5 +57,16 @@
     ],
     "subtleGoldFade": true,
     "periodTimerScorePreserved": true
+  },
+  "arenaBackground": {
+    "nativePixels": [
+      320,
+      224
+    ],
+    "sourcePhotographer": "Jfvoll",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sudbury_Community_Arena_-_Exterior.JPG",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "changes": "Bulldogs sign substitution, crop, brightness lift and Genesis conversion"
   }
 }
