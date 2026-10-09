@@ -1,3 +1,12 @@
+# Release 1.05 — BROdude broadcast logo
+
+- Standard/Widescreen native home, away, both-Bulldogs and NHL-only starts passed (8 matchups, 40 captured stages). Live logo tiles, unchanged HUD maps, period/timer/frame glyphs and palettes checked. Running clocks, pause/resume and exact save-state roundtrips passed.
+- Both ROMs differ from 1.04 only within the 14 logo tiles and checksum (297 changed bytes each). All game code and other assets preserved. Independent rebuilds and clean-source IPS roundtrips pass.
+- Native gameplay screenshots included. Physical MiSTer, iPhone and Android testing is not newly claimed.
+- Both standalone ROMs and a ROM-only ZIP delivered in chat; future releases retain this delivery convention.
+
+---
+
 # Browser menu update — 2026-10-07
 
 - Source and production-bundle menu regressions pass: bottom movement, clicks, touch starts and legacy mouse-trigger settings keep the menu closed; explicit toggle opens it. Old hidden-button settings cannot hide the only menu access. Existing controller-routing checks pass.

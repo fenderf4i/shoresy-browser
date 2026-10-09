@@ -1,16 +1,16 @@
 {
-  "version": "NHL26 Shoresy Edition - Standard 1.04",
-  "suppliedFilename": "NHL26-Shoresy Edition-Standard-1.04.md",
-  "publishedFilename": "nhl26-shoresy-standard-1.04.bin",
+  "version": "NHL26 Shoresy Edition - Standard 1.05",
+  "suppliedFilename": "NHL26-Shoresy Edition-Standard-1.05.md",
+  "publishedFilename": "nhl26-shoresy-standard-1.05.bin",
   "bytes": 3145728,
-  "sha256": "5b7bbbe7d38f683b7ae0559950363bbb4fb06b68d65b8c572374989f45d8aece",
+  "sha256": "8fffb16b6c88cc7f906644529da06e1d1b75a07675bd8d483ebba63f0dd7d040",
   "defaultHomeTeam": "Sudbury",
   "defaultAwayTeam": "Winnipeg",
-  "modifications": "Release 1.04 excludes Shoresy from featured-player mentions during Jory interviews. All twelve approved conversations, portraits and 50% team brawl with hockey-photo opener retained.",
+  "modifications": "Release 1.05 replaces only the NHL Network logo with the approved faded-gold BROdude wordmark; period, timer and score preserved. All Release 1.04 conversations, guest exclusion and brawl behavior retained.",
   "headerDomesticTitle": "NHL Hockey '26 -'94 Edition",
   "headerOverseasTitle": "NHL 2026 - 94 Edition by JKline3 & von Ozbourne",
   "menuPortraitOrder": "Michaels, Goody, Fish, Sommerfeld, JJ Frankie JJ, Delaney, Jim 2, Jim 1, Shoresy, Dolo, Schmidt, Hitch, Jim 3, Brett Skrupski",
-  "baseReleaseSha256": "e4e7be8a55788f73577318733ba1adbc39a44737d3cc128d8248400d791b01c7",
+  "baseReleaseSha256": "5b7bbbe7d38f683b7ae0559950363bbb4fb06b68d65b8c572374989f45d8aece",
   "announcerConversations": {
     "pairs": [
       "Anik Archambault / Jay Onrait",
@@ -42,13 +42,21 @@
   },
   "verification": {
     "status": "PASS",
-    "featuredEdgeCases": 192,
-    "fullConversationScenarios": 40,
-    "actualNativeStarts": 768,
-    "brawlsObserved": 355,
-    "observedPercent": 46.223958333333336,
-    "fightAndNoFightScenarios": 18,
+    "nativeMatchups": 8,
+    "nativeStages": 40,
+    "reproducibleBuilds": true,
+    "cleanSourceIPSRoundtrips": true,
+    "periodTimerScorePreserved": true,
     "physicalDevices": "Not newly tested",
-    "method": "Separate native CPU edge harness plus unmodified production ROM playback and game-start tests. See reports for exact methods."
+    "method": "Native cold boots/menu inputs, live tile-map/palette checks, running-clock/pause/save-load checks and bounded ROM binary audit. No RAM writes."
+  },
+  "broadcastLogo": {
+    "text": "BROdude",
+    "nativeSize": [
+      56,
+      16
+    ],
+    "subtleGoldFade": true,
+    "periodTimerScorePreserved": true
   }
 }
