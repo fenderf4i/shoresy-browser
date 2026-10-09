@@ -1,3 +1,7 @@
+# Release 1.07 — Smooth NOSHO pregame background
+
+Both formats passed exact live tile/palette checks across eight team-role cases, all twelve native random outcomes, six complete conversations covering each announcer pair, portraits and timings, save/load, native gameplay transitions and clocks, unchanged team-selection pixels, scoped byte audit, independent rebuilds and clean-source IPS roundtrips. Physical devices were not newly tested.
+
 # Release 1.06 — Winter evening arena
 
 Both Standard and Widescreen passed eight total native matchups, ten-minute menu idles, exact menu save/load, gameplay clocks and pause/resume. The arena-only byte audit, unchanged UI/team palettes and overlay map, identical header backplate pixels, reset gameplay palettes and unchanged BROdude logo tiles passed. Independent builds and clean-source IPS roundtrips match. Physical devices were not newly tested.

@@ -1,16 +1,16 @@
 {
-  "version": "NHL26 Shoresy Edition - Standard 1.06",
-  "suppliedFilename": "NHL26-Shoresy Edition-Standard-1.06.md",
-  "publishedFilename": "nhl26-shoresy-standard-1.06.bin",
+  "version": "NHL26 Shoresy Edition - Standard 1.07",
+  "suppliedFilename": "NHL26-Shoresy Edition-Standard-1.07.md",
+  "publishedFilename": "nhl26-shoresy-standard-1.07.bin",
   "bytes": 3145728,
-  "sha256": "c60428b2fe28267aba3af906e9e41dee6acca133876532fe33a271cac4026a30",
+  "sha256": "32212b31baa437579f07b1c394c6f8a031a673d46f538b9e3ebcb950ed1ea550",
   "defaultHomeTeam": "Sudbury",
   "defaultAwayTeam": "Winnipeg",
-  "modifications": "Release 1.06 replaces the team-selection background with a winter-evening Sudbury arena and Bulldogs facade crest. Menu header backplates, UI/team palette banks, all 1.05 game code, conversations, roster, brawl probability and HUD artwork are retained.",
+  "modifications": "Release 1.07 replaces only the pregame announcer/MATCHUPS background with smoother NOSHO lettering and maple leaves in Bulldogs blue. The winter arena, foreground portraits/dialogue, roster, ratings, 50% brawl and BROdude HUD remain exact 1.06.",
   "headerDomesticTitle": "NHL Hockey '26 -'94 Edition",
   "headerOverseasTitle": "NHL 2026 - 94 Edition by JKline3 & von Ozbourne",
   "menuPortraitOrder": "Michaels, Goody, Fish, Sommerfeld, JJ Frankie JJ, Delaney, Jim 2, Jim 1, Shoresy, Dolo, Schmidt, Hitch, Jim 3, Brett Skrupski",
-  "baseReleaseSha256": "8fffb16b6c88cc7f906644529da06e1d1b75a07675bd8d483ebba63f0dd7d040",
+  "baseReleaseSha256": "c60428b2fe28267aba3af906e9e41dee6acca133876532fe33a271cac4026a30",
   "announcerConversations": {
     "pairs": [
       "Anik Archambault / Jay Onrait",
@@ -43,11 +43,12 @@
   "verification": {
     "status": "PASS",
     "nativeMatchups": 8,
-    "menuIdleMinutesPerScenario": 10,
+    "completeConversations": 6,
+    "all12NativeRandomChoices": true,
     "reproducibleBuilds": true,
     "cleanSourceIPSRoundtrips": true,
     "physicalDevices": "Not newly tested",
-    "method": "Cold boot, native menu/controller input, no RAM writes. Exact background tile/palette/map encoding plus unchanged non-background ROM bytes separately audited."
+    "method": "Cold boot/native controller input and unmodified RAM; exact VRAM and palette audit, complete scripts and speaker swaps, save/load, normal game transition/clock, unchanged selection screen pixels. Byte diff/IPS roundtrip separately checked by builder."
   },
   "broadcastLogo": {
     "text": "BROdude",
@@ -68,5 +69,16 @@
     "license": "CC BY-SA 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
     "changes": "Bulldogs sign substitution, crop, brightness lift and Genesis conversion"
+  },
+  "pregameBackground": {
+    "text": "NOSHO",
+    "symbol": "Canadian maple leaf",
+    "nativePixels": [
+      320,
+      224
+    ],
+    "tiles": 641,
+    "blueShades": 5,
+    "smoothing": "Smooth generated contours plus Lanczos downsampling and intermediate edge shades"
   }
 }

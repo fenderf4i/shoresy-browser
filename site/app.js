@@ -23,9 +23,9 @@
   window.EJS_player = "#game";
   window.EJS_core = "genesis_plus_gx";
   window.EJS_controlScheme = "segaMD";
-  window.EJS_gameUrl = "roms/nhl26-shoresy-standard-1.06.bin";
-  window.EJS_gameName = "NHL26 Shoresy Standard 1.06";
-  window.EJS_gameID = 26106;
+  window.EJS_gameUrl = "roms/nhl26-shoresy-standard-1.07.bin";
+  window.EJS_gameName = "NHL26 Shoresy Standard 1.07";
+  window.EJS_gameID = 26107;
   window.EJS_pathtodata = "emulator/";
   window.EJS_paths = {
     "emulator.min.js": "emulator/emulator.min.js?v=menu-button1",

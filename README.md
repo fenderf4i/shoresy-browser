@@ -1,6 +1,6 @@
 # NHL26 Shoresy Browser Player
 
-An automatic-loading browser player for **NHL26 Shoresy Edition — Standard 1.06** Genesis ROM. Designed for portrait play in iPhone Safari and Android Chrome, with landscape support, a home-screen manifest, touch D-pad / A / B / C / START, keyboard and controller mapping, pause/restart, and save-state download/import.
+An automatic-loading browser player for **NHL26 Shoresy Edition — Standard 1.07** Genesis ROM. Designed for portrait play in iPhone Safari and Android Chrome, with landscape support, a home-screen manifest, touch D-pad / A / B / C / START, keyboard and controller mapping, pause/restart, and save-state download/import.
 
 ## Play
 
@@ -13,6 +13,8 @@ Use the top-right menu button for pause, restart, save state, or load state. Bot
 Keyboard: arrow keys, A/S/D for Genesis A/B/C, Enter for START. Hardware controllers can be configured in the emulator control menu. Connect the controller, start the player, and press a controller button with the page active. Under **How to play → Check controller**, a local browser check shows whether the browser sees it and whether its buttons respond.
 
 ## Source integrity
+
+Release **1.07** adds the approved smoother NOSHO/maple-leaf pregame background in Bulldogs blue. Foreground portraits and dialogue, the winter arena and all gameplay are retained. Both versions passed complete announcer scripts, live palette/tile checks, native random selection, saved-state retention and game transitions; independent rebuilds match.
 
 Release **1.06** replaces the team-selection arena with the approved winter-evening Sudbury Community Arena and Bulldogs facade crest. Separate display crops preserve the building proportions. Menu header plates and all 1.05 gameplay are retained. Eight native matchups, ten-minute menu idles, save/load, clocks and pause/resume passed.
 
@@ -29,9 +31,9 @@ before the unchanged 50% five-skater brawl. START advances the line or skips the
 Every Bulldog wins and celebrates; the original faceoff and game state are restored.
 The Jims retain maximum native fighting ratings. Once-per-period fights remain research.
 
-The browser serves exact standalone `NHL26-Shoresy Edition-Standard-1.06.md` bytes
+The browser serves exact standalone `NHL26-Shoresy Edition-Standard-1.07.md` bytes
 as `.bin`, without runtime patches. Size: 3,145,728 bytes. SHA-256:
-`c60428b2fe28267aba3af906e9e41dee6acca133876532fe33a271cac4026a30`. A new ROM URL and game ID distinguish 1.06 from earlier saves.
+`32212b31baa437579f07b1c394c6f8a031a673d46f538b9e3ebcb950ed1ea550`. A new ROM URL and game ID distinguish 1.07 from earlier saves.
 
 See `site/roms/provenance.json` and the [actual release videos](site/brawl-preview/index.html).
 All prior releases remain preserved.
